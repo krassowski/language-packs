@@ -37,3 +37,5 @@ jobs:
       - name: Create a PR
         run: |
           hub pull-request -m "Update pot files"
+        env:
+          GITHUB_USER: jupyterlab-bot
