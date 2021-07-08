@@ -3,7 +3,8 @@ name: Create Release and publish packages
 on:
   push:
     tags:
-    # Tags in the form, es-ES-vmajor.minor.patch
+    # Tags in the form: es-ES-vmajor.minor.patch
+    # e.g. zh-CN@v0.0.1
     - '*'
 
 jobs:
