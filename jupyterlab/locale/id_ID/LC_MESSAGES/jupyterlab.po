@@ -1,0 +1,3609 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jupyterlab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: jupyterlab\n"
+"X-Crowdin-Project-ID: 409874\n"
+"X-Crowdin-Language: id\n"
+"X-Crowdin-File: /[jupyterlab.language-packs] master/jupyterlab/locale/jupyterlab.pot\n"
+"X-Crowdin-File-ID: 48\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"PO-Revision-Date: 2021-07-08 04:14\n"
+
+#: /examples/federated/md_package/./schema/plugin.json:30 /packages/markdownviewer-extension/schema/plugin.json:30
+msgid "Font Family"
+msgstr "Keluarga Font"
+
+#: /examples/federated/md_package/./schema/plugin.json:31 /packages/markdownviewer-extension/schema/plugin.json:31
+msgctxt "schema"
+msgid "The font family used to render markdown.\n"
+"If `null`, value from current theme is used."
+msgstr "Keluarga font digunakan untuk membuat markdown.\n"
+"Jika `null`, nilai dari tema saat ini digunakan."
+
+#: /examples/federated/md_package/./schema/plugin.json:36 /packages/markdownviewer-extension/schema/plugin.json:36
+msgid "Font Size"
+msgstr "Ukuran Font"
+
+#: /examples/federated/md_package/./schema/plugin.json:37 /packages/markdownviewer-extension/schema/plugin.json:37
+msgctxt "schema"
+msgid "The size in pixel of the font used to render markdown.\n"
+"If `null`, value from current theme is used."
+msgstr ""
+
+#: /examples/federated/md_package/./schema/plugin.json:4 /packages/markdownviewer-extension/schema/plugin.json:4
+msgctxt "schema"
+msgid "Markdown Viewer"
+msgstr "Permisa Markdown"
+
+#: /examples/federated/md_package/./schema/plugin.json:42 /packages/markdownviewer-extension/schema/plugin.json:42
+msgid "Line Height"
+msgstr "Tinggi Garis"
+
+#: /examples/federated/md_package/./schema/plugin.json:43 /packages/markdownviewer-extension/schema/plugin.json:43
+msgctxt "schema"
+msgid "The line height used to render markdown.\n"
+"If `null`, value from current theme is used."
+msgstr "Tinggi garis digunakan untuk membuat markdown.\n"
+"Jika `null`, nilai dari tema saat ini digunakan."
+
+#: /examples/federated/md_package/./schema/plugin.json:48 /packages/markdownviewer-extension/schema/plugin.json:48
+msgid "Line Width"
+msgstr "Garis Lebar"
+
+#: /examples/federated/md_package/./schema/plugin.json:49 /packages/markdownviewer-extension/schema/plugin.json:49
+msgctxt "schema"
+msgid "The text line width expressed in CSS ch units.\n"
+"If `null`, lines fit the viewport width."
+msgstr ""
+
+#: /examples/federated/md_package/./schema/plugin.json:5 /packages/markdownviewer-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Markdown viewer settings."
+msgstr "Pengaturan permisa markdown."
+
+#: /examples/federated/md_package/./schema/plugin.json:54 /packages/markdownviewer-extension/schema/plugin.json:54
+msgid "Hide Front Matter"
+msgstr "Sembuyikan Hal Terdahulu"
+
+#: /examples/federated/md_package/./schema/plugin.json:55 /packages/markdownviewer-extension/schema/plugin.json:55
+msgctxt "schema"
+msgid "Whether to hide YAML front matter.\n"
+"The YAML front matter must be placed at the top of the document,\n"
+"started by a line of three dashes (---) and ended by a line of\n"
+"three dashes (---) or three points (...)."
+msgstr ""
+
+#: /examples/federated/md_package/./schema/plugin.json:60 /packages/markdownviewer-extension/schema/plugin.json:60
+msgid "Render Timeout"
+msgstr "Waktunya Habis"
+
+#: /examples/federated/md_package/./schema/plugin.json:61 /packages/markdownviewer-extension/schema/plugin.json:61
+msgctxt "schema"
+msgid "The render timeout in milliseconds."
+msgstr ""
+
+#: /packages/application-extension/schema/main.json:2
+msgctxt "schema"
+msgid "Application "
+msgstr "Aplikasi "
+
+#: /packages/application-extension/schema/main.json:3
+msgctxt "schema"
+msgid "Main JupyterLab application settings."
+msgstr "Pengaturan aplikasi JupyterLab utama."
+
+#: /packages/application-extension/schema/sidebar.json:0
+msgctxt "schema"
+msgid "Overrides for where to show sidebar items\n"
+"e.g., {\"tab-manager\": \"right\"}"
+msgstr ""
+
+#: /packages/application-extension/schema/sidebar.json:3
+msgctxt "schema"
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: /packages/application-extension/schema/sidebar.json:4
+msgctxt "schema"
+msgid "Sidebar layout settings."
+msgstr ""
+
+#: /packages/application-extension/schema/sidebar.json:8
+msgid "Overrides"
+msgstr "Diganti"
+
+#: /packages/apputils-extension/schema/palette.json:13
+msgid "Modal Command Palette"
+msgstr "Daftar Perintah Modal"
+
+#: /packages/apputils-extension/schema/palette.json:14
+msgctxt "schema"
+msgid "Whether the command palette should be modal or in the left panel."
+msgstr ""
+
+#: /packages/apputils-extension/schema/palette.json:2
+msgctxt "schema"
+msgid "Command Palette"
+msgstr "Daftar Perintah"
+
+#: /packages/apputils-extension/schema/palette.json:3
+msgctxt "schema"
+msgid "Command palette settings."
+msgstr "Pengaturan daftar perintah."
+
+#: /packages/apputils-extension/schema/print.json:2
+msgctxt "schema"
+msgid "Print"
+msgstr "Mencetak"
+
+#: /packages/apputils-extension/schema/print.json:3
+msgctxt "schema"
+msgid "Print settings."
+msgstr "Pengaturan cetak."
+
+#: /packages/apputils-extension/schema/themes.json:2
+msgctxt "schema"
+msgid "Theme"
+msgstr "Tema"
+
+#: /packages/apputils-extension/schema/themes.json:4
+msgctxt "schema"
+msgid "Theme manager settings."
+msgstr "Pengaturan manajer tema."
+
+#: /packages/apputils-extension/schema/themes.json:45
+msgid "Selected Theme"
+msgstr "Tema yang dipilih"
+
+#: /packages/apputils-extension/schema/themes.json:46
+msgctxt "schema"
+msgid "Application-level visual styling theme"
+msgstr ""
+
+#: /packages/apputils-extension/schema/themes.json:51
+msgid "Scrollbar Theming"
+msgstr "Tema Scrollbar"
+
+#: /packages/apputils-extension/schema/themes.json:52
+msgctxt "schema"
+msgid "Enable/disable styling of the application scrollbars"
+msgstr ""
+
+#: /packages/apputils-extension/schema/themes.json:56
+msgid "Theme CSS Overrides"
+msgstr ""
+
+#: /packages/apputils-extension/schema/themes.json:57
+msgctxt "schema"
+msgid "Override theme CSS variables by setting key-value pairs here"
+msgstr ""
+
+#: /packages/codemirror-extension/schema/commands.json:10
+msgctxt "schema"
+msgid "Configures the keymap to use"
+msgstr ""
+
+#: /packages/codemirror-extension/schema/commands.json:15 /packages/terminal-extension/schema/plugin.json:52 packages/apputils-extension/src/themesplugins.ts:246
+msgid "Theme"
+msgstr "Tema"
+
+#: /packages/codemirror-extension/schema/commands.json:16
+msgctxt "schema"
+msgid "CSS file defining the corresponding\n"
+".cm-s-[name] styles is loaded"
+msgstr ""
+
+#: /packages/codemirror-extension/schema/commands.json:21
+msgid "Scroll behavior"
+msgstr "Perilaku Gulir"
+
+#: /packages/codemirror-extension/schema/commands.json:22
+msgctxt "schema"
+msgid "Whether to scroll past the end of text document"
+msgstr ""
+
+#: /packages/codemirror-extension/schema/commands.json:27
+msgid "Style Active Line"
+msgstr "Format Baris yang Aktif"
+
+#: /packages/codemirror-extension/schema/commands.json:28
+msgctxt "schema"
+msgid "Value is boolean, or { nonEmpty: boolean }"
+msgstr "Nilai boolean atau { nonEmpty: boolean }"
+
+#: /packages/codemirror-extension/schema/commands.json:33
+msgid "Style Selected Text"
+msgstr "Format Teks yang Dipilih"
+
+#: /packages/codemirror-extension/schema/commands.json:34
+msgctxt "schema"
+msgid "Value is boolean"
+msgstr "Nilai boolean"
+
+#: /packages/codemirror-extension/schema/commands.json:39
+msgid "Selection Pointer"
+msgstr "Pununjuk Pilihan"
+
+#: /packages/codemirror-extension/schema/commands.json:4
+msgctxt "schema"
+msgid "CodeMirror"
+msgstr "CodeMirror"
+
+#: /packages/codemirror-extension/schema/commands.json:40
+msgctxt "schema"
+msgid "Value is boolean or string, e.g. 'pointer'"
+msgstr "Nilai boolean atau rangkaian, e.g. 'pointer'"
+
+#: /packages/codemirror-extension/schema/commands.json:45
+msgid "Ctrl-C"
+msgstr "Ctrl+C"
+
+#: /packages/codemirror-extension/schema/commands.json:46
+msgctxt "schema"
+msgid "When enabled, which is the default, doing copy or cut when there is no selection will copy or cut the whole lines that have cursors on them."
+msgstr ""
+
+#: /packages/codemirror-extension/schema/commands.json:5
+msgctxt "schema"
+msgid "Text editor settings for all CodeMirror editors."
+msgstr "Pengaturan editor teks untuk semua editor CodeMirror."
+
+#: /packages/codemirror-extension/schema/commands.json:9
+msgid "Key Map"
+msgstr "Petunju Kunci"
+
+#: /packages/completer-extension/schema/consoles.json:2
+msgctxt "schema"
+msgid "Console Completer"
+msgstr "Pelangkap Konsol"
+
+#: /packages/completer-extension/schema/consoles.json:3
+msgctxt "schema"
+msgid "Console completer settings."
+msgstr "Pengaturan pelangkap konsol."
+
+#: /packages/completer-extension/schema/files.json:2
+msgctxt "schema"
+msgid "File Editor Completer"
+msgstr "Pelangkap Editor Berkas"
+
+#: /packages/completer-extension/schema/files.json:3
+msgctxt "schema"
+msgid "File editor completer settings."
+msgstr "Pengaturan pelangkap editor berkas."
+
+#: /packages/completer-extension/schema/notebooks.json:2
+msgctxt "schema"
+msgid "Notebook Completer"
+msgstr "Pelangkap Catatan"
+
+#: /packages/completer-extension/schema/notebooks.json:3
+msgctxt "schema"
+msgid "Notebook completer settings."
+msgstr "Pengaturan pelangkap catatan."
+
+#: /packages/console-extension/schema/tracker.json:2
+msgctxt "schema"
+msgid "Code Console"
+msgstr "Konsol Kode"
+
+#: /packages/console-extension/schema/tracker.json:3
+msgctxt "schema"
+msgid "Code Console settings."
+msgstr "Pengaturan Konsol Kode."
+
+#: /packages/console-extension/schema/tracker.json:35
+msgid "Interaction mode"
+msgstr "Mode interaksi"
+
+#: /packages/console-extension/schema/tracker.json:36
+msgctxt "schema"
+msgid "Whether the console interaction mimics the notebook\n"
+"or terminal keyboard shortcuts."
+msgstr ""
+
+#: /packages/console-extension/schema/tracker.json:42 packages/console-extension/src/foreign.ts:85
+msgid "Show All Kernel Activity"
+msgstr "Tampilkan Semua Aktivitas Kernel"
+
+#: /packages/console-extension/schema/tracker.json:43
+msgctxt "schema"
+msgid "Whether the console defaults to showing all\n"
+"kernel activity or just kernel activity originating from itself."
+msgstr ""
+
+#: /packages/debugger-extension/schema/main.json:3
+msgctxt "schema"
+msgid "Debugger settings"
+msgstr "Pengaturan debugger"
+
+#: /packages/debugger-extension/schema/main.json:34
+msgid "Variable filter"
+msgstr "Saring variabel"
+
+#: /packages/debugger-extension/schema/main.json:35
+msgctxt "schema"
+msgid "Variables to filter out in the tree and table viewers"
+msgstr ""
+
+#: /packages/debugger-extension/schema/main.json:5
+msgctxt "schema"
+msgid "Debugger"
+msgstr "Debugger"
+
+#: /packages/docmanager-extension/schema/plugin.json:22 packages/docmanager-extension/src/index.ts:693
+msgid "Autosave Documents"
+msgstr "Otosimpan dokumen"
+
+#: /packages/docmanager-extension/schema/plugin.json:23
+msgctxt "schema"
+msgid "Whether to autosave documents"
+msgstr "Apakah akan otosimpan dokumen"
+
+#: /packages/docmanager-extension/schema/plugin.json:28
+msgid "Autosave Interval"
+msgstr "Selang waktu menyimpan otomatis"
+
+#: /packages/docmanager-extension/schema/plugin.json:29
+msgctxt "schema"
+msgid "Length of save interval in seconds"
+msgstr "Panjang selang waktu penyimpanan dalam detik"
+
+#: /packages/docmanager-extension/schema/plugin.json:3
+msgctxt "schema"
+msgid "Document Manager settings."
+msgstr "Pengaturan manajer dokumen."
+
+#: /packages/docmanager-extension/schema/plugin.json:34
+msgid "Default Viewers"
+msgstr "Permisa Bawaan"
+
+#: /packages/docmanager-extension/schema/plugin.json:36
+msgctxt "schema"
+msgid "Overrides for the default viewers for file types"
+msgstr ""
+
+#: /packages/docmanager-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Document Manager"
+msgstr "Manajer Dokumen"
+
+#: /packages/documentsearch-extension/schema/plugin.json:2
+msgctxt "schema"
+msgid "Document Search"
+msgstr "Pencarian Dokumen"
+
+#: /packages/documentsearch-extension/schema/plugin.json:3
+msgctxt "schema"
+msgid "Document search plugin."
+msgstr "Plugin pencarian dokumen."
+
+#: /packages/extensionmanager-extension/schema/plugin.json:14
+msgid "Disclaimed Status"
+msgstr "Tolak Status"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:15
+msgctxt "schema"
+msgid "Whether the user understand that extensions managed through this interface run arbitrary code that may be dangerous"
+msgstr ""
+
+#: /packages/extensionmanager-extension/schema/plugin.json:4
+msgctxt "schema"
+msgid "Extension Manager"
+msgstr "Ekstensi Manajer"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Extension manager settings."
+msgstr "Pengaturan ekstensi manajer."
+
+#: /packages/extensionmanager-extension/schema/plugin.json:8
+msgid "Enabled Status"
+msgstr "Status yang diaktifkan"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:9
+msgctxt "schema"
+msgid "Enables extension manager (requires Node.js/npm).\n"
+"WARNING: installing untrusted extensions may be unsafe."
+msgstr ""
+
+#: /packages/filebrowser-extension/schema/browser.json:21
+msgid "Navigate to current directory"
+msgstr "Navigasi ke direktori saat ini"
+
+#: /packages/filebrowser-extension/schema/browser.json:22
+msgctxt "schema"
+msgid "Whether to automatically navigate to a document's current directory"
+msgstr ""
+
+#: /packages/filebrowser-extension/schema/browser.json:27
+msgid "Filter on file name with a fuzzy search"
+msgstr "Menyaring berkas berdasarkan nama dengan pencarian fuzzy"
+
+#: /packages/filebrowser-extension/schema/browser.json:28
+msgctxt "schema"
+msgid "Whether to apply fuzzy algorithm while filtering on file names"
+msgstr ""
+
+#: /packages/filebrowser-extension/schema/browser.json:4
+msgctxt "schema"
+msgid "File Browser"
+msgstr "Peramban Berkas"
+
+#: /packages/filebrowser-extension/schema/browser.json:5
+msgctxt "schema"
+msgid "File Browser settings."
+msgstr "Pengaturan Peramban Berkas."
+
+#: /packages/fileeditor-extension/schema/plugin.json:4
+msgctxt "schema"
+msgid "Text Editor"
+msgstr "Editor Teks"
+
+#: /packages/fileeditor-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Text editor settings."
+msgstr "Pengaturan editor teks."
+
+#: /packages/fileeditor-extension/schema/plugin.json:61
+msgid "Editor Configuration"
+msgstr "Konfigurasi Editor"
+
+#: /packages/fileeditor-extension/schema/plugin.json:62
+msgctxt "schema"
+msgid "The configuration for all text editors.\n"
+"If `fontFamily`, `fontSize` or `lineHeight` are `null`,\n"
+"values from current theme are used."
+msgstr "Konfigurasi untuk semua editor teks.\n"
+"Jika `fontFamily`, `fontSize`, atau `lineHeight` `null`,\n"
+"nilai dari tema saat ini digunakan."
+
+#: /packages/imageviewer-extension/schema/plugin.json:2
+msgctxt "schema"
+msgid "Image Viewer"
+msgstr "Penampil gambar"
+
+#: /packages/imageviewer-extension/schema/plugin.json:3
+msgctxt "schema"
+msgid "Image viewer settings."
+msgstr "Pengaturan penampil gambar."
+
+#: /packages/inspector-extension/schema/inspector.json:2
+msgctxt "schema"
+msgid "Inspector"
+msgstr "Inspektur"
+
+#: /packages/inspector-extension/schema/inspector.json:3
+msgctxt "schema"
+msgid "Inspector settings."
+msgstr "Pengaturan inspektur."
+
+#: /packages/launcher-extension/schema/plugin.json:2
+msgctxt "schema"
+msgid "Launcher"
+msgstr "Launcher"
+
+#: /packages/launcher-extension/schema/plugin.json:3
+msgctxt "schema"
+msgid "Launcher settings."
+msgstr "Pengaturan kesalahan."
+
+#: /packages/logconsole-extension/schema/plugin.json:10
+msgctxt "schema"
+msgid "Maximum number of log entries to store in memory"
+msgstr "Jumlah maksimum entri log untuk disimpan dalam memori"
+
+#: /packages/logconsole-extension/schema/plugin.json:15
+msgid "Status Bar Item flash"
+msgstr ""
+
+#: /packages/logconsole-extension/schema/plugin.json:16
+msgctxt "schema"
+msgid "Whether to flash on new log message or not"
+msgstr ""
+
+#: /packages/logconsole-extension/schema/plugin.json:4
+msgctxt "schema"
+msgid "Log Console"
+msgstr "Konsol Log"
+
+#: /packages/logconsole-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Log Console settings."
+msgstr "Pengaturan Konsol Log."
+
+#: /packages/logconsole-extension/schema/plugin.json:9
+msgid "Log entry count limit"
+msgstr ""
+
+#: /packages/mainmenu-extension/schema/plugin.json:2
+msgctxt "schema"
+msgid "Main Menu"
+msgstr "Menu Utama"
+
+#: /packages/mainmenu-extension/schema/plugin.json:3
+msgctxt "schema"
+msgid "Main JupyterLab menu settings."
+msgstr "Pengaturan menu utama JupyterLab."
+
+#: /packages/notebook-extension/schema/tracker.json:221
+msgctxt "schema"
+msgid "Notebook"
+msgstr "Notebook"
+
+#: /packages/notebook-extension/schema/tracker.json:222
+msgctxt "schema"
+msgid "Notebook settings."
+msgstr "Pengaturan notebook."
+
+#: /packages/notebook-extension/schema/tracker.json:281
+msgid "Code Cell Configuration"
+msgstr "Konfigurasi Sel Kode"
+
+#: /packages/notebook-extension/schema/tracker.json:282
+msgctxt "schema"
+msgid "The configuration for all code cells."
+msgstr "Konfigurasi untuk semua sel kode."
+
+#: /packages/notebook-extension/schema/tracker.json:302
+msgid "Default cell type"
+msgstr "Jenis sel bawaan"
+
+#: /packages/notebook-extension/schema/tracker.json:303
+msgctxt "schema"
+msgid "The default type (markdown, code, or raw) for new cells"
+msgstr "Jenis bawaan (markdown, kode, atau asli) untuk sel baru"
+
+#: /packages/notebook-extension/schema/tracker.json:309
+msgid "Shut down kernel"
+msgstr "Matikan kernel"
+
+#: /packages/notebook-extension/schema/tracker.json:310
+msgctxt "schema"
+msgid "Whether to shut down or not the kernel when closing a notebook."
+msgstr "Apakah akan memtatikan kernel atau tidak ketika menutup catatan."
+
+#: /packages/notebook-extension/schema/tracker.json:315
+msgid "Markdown Cell Configuration"
+msgstr "Konfigurasi Sel Markdown"
+
+#: /packages/notebook-extension/schema/tracker.json:316
+msgctxt "schema"
+msgid "The configuration for all markdown cells."
+msgstr "Konfigurasi untuk semua sel markdown."
+
+#: /packages/notebook-extension/schema/tracker.json:336
+msgid "Raw Cell Configuration"
+msgstr "Konfigurasi Sel Asli"
+
+#: /packages/notebook-extension/schema/tracker.json:337
+msgctxt "schema"
+msgid "The configuration for all raw cells."
+msgstr "Konfigurasi untuk semua sel asli."
+
+#: /packages/notebook-extension/schema/tracker.json:357
+msgid "Scroll past last cell"
+msgstr ""
+
+#: /packages/notebook-extension/schema/tracker.json:358
+msgctxt "schema"
+msgid "Whether to be able to scroll so the last cell is at the top of the panel"
+msgstr ""
+
+#: /packages/notebook-extension/schema/tracker.json:363
+msgid "Recording timing"
+msgstr "Waktu Perekaman"
+
+#: /packages/notebook-extension/schema/tracker.json:364
+msgctxt "schema"
+msgid "Should timing data be recorded in cell metadata"
+msgstr ""
+
+#: /packages/settingeditor-extension/schema/plugin.json:2
+msgctxt "schema"
+msgid "Setting Editor"
+msgstr "Editor Pengaturan"
+
+#: /packages/settingeditor-extension/schema/plugin.json:3
+msgctxt "schema"
+msgid "Setting editor settings."
+msgstr ""
+
+#: /packages/shortcuts-extension/schema/shortcuts.json:11
+msgctxt "schema"
+msgid "The list of keyboard shortcuts."
+msgstr "Daftar pintasan keyboard."
+
+#: /packages/shortcuts-extension/schema/shortcuts.json:5
+msgctxt "schema"
+msgid "Keyboard Shortcuts"
+msgstr "Pintasan Keyboard"
+
+#: /packages/shortcuts-extension/schema/shortcuts.json:6
+msgctxt "schema"
+msgid "Keyboard shortcut settings."
+msgstr "Pengaturan pintasan keyboard."
+
+#: /packages/statusbar-extension/schema/plugin.json:10
+msgctxt "schema"
+msgid "Whether to show status bar or not"
+msgstr "Apakah akan tampilkan bar status atau tidak"
+
+#: /packages/statusbar-extension/schema/plugin.json:4
+msgctxt "schema"
+msgid "Status Bar"
+msgstr "Status Bar"
+
+#: /packages/statusbar-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Status Bar settings."
+msgstr "Pengaturn status bar."
+
+#: /packages/statusbar-extension/schema/plugin.json:9
+msgid "Status Bar Visibility"
+msgstr "Visibilitas Bar Status"
+
+#: /packages/terminal-extension/schema/plugin.json:34
+msgid "Font family"
+msgstr "Keluarga Font"
+
+#: /packages/terminal-extension/schema/plugin.json:35
+msgctxt "schema"
+msgid "The font family used to render text."
+msgstr "Keluarga font digunakan untuk membuat teks."
+
+#: /packages/terminal-extension/schema/plugin.json:4
+msgctxt "schema"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: /packages/terminal-extension/schema/plugin.json:40
+msgid "Font size"
+msgstr "Ukuran Font"
+
+#: /packages/terminal-extension/schema/plugin.json:41
+msgctxt "schema"
+msgid "The font size used to render text."
+msgstr "Ukuran font digunakan untuk membuat teks."
+
+#: /packages/terminal-extension/schema/plugin.json:46
+msgid "Line height"
+msgstr "Tinggi Garis"
+
+#: /packages/terminal-extension/schema/plugin.json:47
+msgctxt "schema"
+msgid "The line height used to render text."
+msgstr "Tinggi garis digunakan untuk membuat teks."
+
+#: /packages/terminal-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Terminal settings."
+msgstr "Pengaturan Terminal."
+
+#: /packages/terminal-extension/schema/plugin.json:53
+msgctxt "schema"
+msgid "The theme for the terminal."
+msgstr "Tema untuk terminal."
+
+#: /packages/terminal-extension/schema/plugin.json:58
+msgid "Screen Reader Mode"
+msgstr ""
+
+#: /packages/terminal-extension/schema/plugin.json:59
+msgctxt "schema"
+msgid "Add accessibility elements for use with screen readers."
+msgstr ""
+
+#: /packages/terminal-extension/schema/plugin.json:64
+msgid "Scrollback Buffer"
+msgstr "Scrollback Buffer"
+
+#: /packages/terminal-extension/schema/plugin.json:65
+msgctxt "schema"
+msgid "The amount of scrollback beyond initial viewport"
+msgstr ""
+
+#: /packages/terminal-extension/schema/plugin.json:70
+msgid "Shut down on close"
+msgstr "Matikan saat tutup"
+
+#: /packages/terminal-extension/schema/plugin.json:71
+msgctxt "schema"
+msgid "Shut down the session when closing the terminal."
+msgstr "Matikan sesi saat menutup terminal."
+
+#: /packages/terminal-extension/schema/plugin.json:76
+msgid "Paste with Ctrl+V"
+msgstr "Tempel dengan Ctrl+V"
+
+#: /packages/terminal-extension/schema/plugin.json:77
+msgctxt "schema"
+msgid "Enable pasting with Ctrl+V.  This can be disabled to use Ctrl+V in the vi editor, for instance.  This setting has no effect on macOS, where Cmd+V is available"
+msgstr ""
+
+#: /packages/terminal-extension/schema/plugin.json:82
+msgid "Treat option as meta key on macOS"
+msgstr ""
+
+#: /packages/terminal-extension/schema/plugin.json:83
+msgctxt "schema"
+msgid "Option key on macOS can be used as meta key. This enables to use shortcuts such as option + f to move cursor forward one word"
+msgstr ""
+
+#: /packages/tooltip-extension/schema/consoles.json:2
+msgctxt "schema"
+msgid "Console Tooltips"
+msgstr "Tooltip Konsol"
+
+#: /packages/tooltip-extension/schema/consoles.json:3
+msgctxt "schema"
+msgid "Console tooltip settings."
+msgstr "Pengaturan tooltip konsol."
+
+#: /packages/tooltip-extension/schema/files.json:2
+msgctxt "schema"
+msgid "File Editor Tooltips"
+msgstr "Tooltip Editor Berkas"
+
+#: /packages/tooltip-extension/schema/files.json:3
+msgctxt "schema"
+msgid "File editor tooltip settings."
+msgstr "Pengaturan tooltip editor berkas."
+
+#: /packages/tooltip-extension/schema/notebooks.json:2
+msgctxt "schema"
+msgid "Notebook Tooltips"
+msgstr "Tooltip Notebook"
+
+#: /packages/tooltip-extension/schema/notebooks.json:3
+msgctxt "schema"
+msgid "Notebook tooltip settings."
+msgstr "Pengaturan tooltip notebook."
+
+#: /packages/translation-extension/schema/plugin.json:10
+msgid "Language locale"
+msgstr "Bahasa Lokal"
+
+#: /packages/translation-extension/schema/plugin.json:11
+msgctxt "schema"
+msgid "Set the interface display language. Examples: 'es_CO', 'fr'."
+msgstr "Mengatur bahasa tampilan. Contoh: 'es_CO', 'fr'."
+
+#: /packages/translation-extension/schema/plugin.json:16
+msgid "Localized strings prefix"
+msgstr "Awalan lokalisasi rangkaian"
+
+#: /packages/translation-extension/schema/plugin.json:17
+msgctxt "schema"
+msgid "Add a prefix to localized strings."
+msgstr "Tambah awalan ke rangkaian lokalisasi."
+
+#: /packages/translation-extension/schema/plugin.json:22
+msgid "Display localized strings prefix"
+msgstr "Tampilkan awalan lokalisasi rangkaian"
+
+#: /packages/translation-extension/schema/plugin.json:23
+msgctxt "schema"
+msgid "Display the `stringsPrefix` on localized strings."
+msgstr "Tampilkan `stringsPrefix` pada rangkaian dilokalisasi."
+
+#: /packages/translation-extension/schema/plugin.json:4
+msgctxt "schema"
+msgid "Language"
+msgstr "Bahasa"
+
+#: /packages/translation-extension/schema/plugin.json:5
+msgctxt "schema"
+msgid "Language settings."
+msgstr "Pengaturan bahasa."
+
+#: packages/application-extension/src/index.tsx:147
+msgid "Error Registering Plugins"
+msgstr ""
+
+#: packages/application-extension/src/index.tsx:194 packages/extensionmanager/src/build-helper.tsx:31
+msgid "Build Complete"
+msgstr "Perangkat Lengkap"
+
+#: packages/application-extension/src/index.tsx:197 packages/extensionmanager/src/build-helper.tsx:34
+msgid "Build successfully completed, reload page?"
+msgstr "Berhasil diselesaikan membangun, mau muat ulang halaman?"
+
+#: packages/application-extension/src/index.tsx:199 packages/extensionmanager/src/build-helper.tsx:36
+msgid "You will lose any unsaved changes."
+msgstr "Anda akan kehilangan setiap perubahan yang belum disimpan."
+
+#: packages/application-extension/src/index.tsx:204 packages/extensionmanager/src/build-helper.tsx:41
+msgid "Reload Without Saving"
+msgstr "Dimuat ulang tanpa disimpan"
+
+#: packages/application-extension/src/index.tsx:207 packages/extensionmanager/src/build-helper.tsx:44
+msgid "Save and Reload"
+msgstr "Simpan dan Dimuat Ulang"
+
+#: packages/application-extension/src/index.tsx:220 packages/extensionmanager/src/build-helper.tsx:57
+msgid "Save Failed"
+msgstr "Gagal Menyimpan"
+
+#: packages/application-extension/src/index.tsx:229 packages/extensionmanager/src/build-helper.tsx:67
+msgid "Build Failed"
+msgstr "Build Gagal"
+
+#: packages/application-extension/src/index.tsx:247
+msgid "JupyterLab build is suggested:"
+msgstr "JupyterLab bangun disarankan:"
+
+#: packages/application-extension/src/index.tsx:254
+msgid "Build Recommended"
+msgstr "Perangkat yang direkomendasikan"
+
+#: packages/application-extension/src/index.tsx:258
+msgid "Build"
+msgstr "Bangun"
+
+#: packages/application-extension/src/index.tsx:264
+msgid "Are you sure you want to exit JupyterLab?\n\n"
+"Any unsaved changes will be lost."
+msgstr "Anda yakin ingin keluar dari JupyterLab?\n"
+" \n"
+"Setiap perubahan yang belum disimpan akan hilang."
+
+#: packages/application-extension/src/index.tsx:426
+msgid "The path: %1 was not found. JupyterLab redirected to: %2"
+msgstr "Jalurnya: %1 tidak diketemukan. Jupyterlab dialihkan ke: %2"
+
+#: packages/application-extension/src/index.tsx:435
+msgid "Path Not Found"
+msgstr "Jalurnya Tidak Diketemukan"
+
+#: packages/application-extension/src/index.tsx:521
+msgid "Switch Sidebar Side"
+msgstr "Pindah Sisi Bar"
+
+#: packages/application-extension/src/index.tsx:568 packages/documentsearch-extension/src/index.ts:218 packages/documentsearch-extension/src/index.ts:222 packages/documentsearch-extension/src/index.ts:226 packages/logconsole-extension/src/index.tsx:270 packages/mainmenu-extension/src/index.ts:218 packages/mainmenu-extension/src/index.ts:222 packages/mainmenu-extension/src/index.ts:233 packages/statusbar-extension/src/index.ts:89
+msgid "Main Area"
+msgstr "Area utama"
+
+#: packages/application-extension/src/index.tsx:572
+msgid "Shift+Right Click for Browser Menu"
+msgstr "Shift+Klik Kanan untuk Menu Peramban"
+
+#: packages/application-extension/src/index.tsx:662
+msgid "Activate Next Tab"
+msgstr "Menaktifkan tab selanjutnya"
+
+#: packages/application-extension/src/index.tsx:669
+msgid "Activate Previous Tab"
+msgstr "Aktifkan tab sebelumnya"
+
+#: packages/application-extension/src/index.tsx:676
+msgid "Activate Next Tab Bar"
+msgstr "Menaktifkan tab bar selanjutnya"
+
+#: packages/application-extension/src/index.tsx:683
+msgid "Activate Previous Tab Bar"
+msgstr "Aktifkan tab bar sebelumnya"
+
+#: packages/application-extension/src/index.tsx:696
+msgid "Close Tab"
+msgstr "Tutup Tab"
+
+#: packages/application-extension/src/index.tsx:715
+msgid "Close All Tabs"
+msgstr "Tutup Semua Tab"
+
+#: packages/application-extension/src/index.tsx:722
+msgid "Close All Other Tabs"
+msgstr "Tutup semua tab yang lain"
+
+#: packages/application-extension/src/index.tsx:747
+msgid "Close Tabs to Right"
+msgstr "Tutup tab di kanan"
+
+#: packages/application-extension/src/index.tsx:765
+msgid "Show Left Sidebar"
+msgstr "Tampilkan Bar Sisi Kiri"
+
+#: packages/application-extension/src/index.tsx:781
+msgid "Show Right Sidebar"
+msgstr "Tampilkan Bar Sisi Kanan"
+
+#: packages/application-extension/src/index.tsx:797
+msgid "Presentation Mode"
+msgstr "Mode Presentasi"
+
+#: packages/application-extension/src/index.tsx:821 packages/statusbar-extension/src/index.ts:379
+msgid "Simple Interface"
+msgstr "Tampilan Sederhana"
+
+#: packages/application-extension/src/index.tsx:935
+msgid "Property Inspector"
+msgstr "Inspektur Properti"
+
+#: packages/application/src/connectionlost.ts:22
+msgid "Server Connection Error"
+msgstr "Kesalahan koneksi jaringan"
+
+#: packages/application/src/connectionlost.ts:23
+msgid "A connection to the Jupyter server could not be established.\n"
+"JupyterLab will continue trying to reconnect.\n"
+"Check your network connection or Jupyter server configuration.\n"
+msgstr ""
+
+#: packages/apputils-extension/src/index.ts:212
+msgid "Loading..."
+msgstr "Loading..."
+
+#: packages/apputils-extension/src/index.ts:213
+msgid "The loading screen is taking a long time. \n"
+"Would you like to clear the workspace or keep waiting?"
+msgstr ""
+
+#: packages/apputils-extension/src/index.ts:216
+msgid "Keep Waiting"
+msgstr "Tetap menunggu"
+
+#: packages/apputils-extension/src/index.ts:217
+msgid "Clear Workspace"
+msgstr "Kosongkan ruang kerja"
+
+#: packages/apputils-extension/src/index.ts:282
+msgid "Print..."
+msgstr "Mencetak..."
+
+#: packages/apputils-extension/src/index.ts:407
+msgid "Reset Application State"
+msgstr "Kembalikan Status Aplikasi"
+
+#: packages/apputils-extension/src/index.ts:504
+msgid "Run First Enabled Command"
+msgstr "Menjalankan Perintah Pertama yang Memunkinkan"
+
+#: packages/apputils-extension/src/palette.ts:145
+msgid "Commands (%1)"
+msgstr "Perintah (%1)"
+
+#: packages/apputils-extension/src/palette.ts:147 packages/apputils-extension/src/palette.ts:212
+msgid "Commands"
+msgstr "Perintah"
+
+#: packages/apputils-extension/src/palette.ts:163
+msgid "Activate Command Palette"
+msgstr "Menaktifkan Daftar Perintah"
+
+#: packages/apputils-extension/src/palette.ts:166 packages/extensionmanager/src/widget.tsx:744
+msgid "SEARCH"
+msgstr "CARI"
+
+#: packages/apputils-extension/src/palette.ts:50
+msgid "Command Palette"
+msgstr "Daftar Perintah"
+
+#: packages/apputils-extension/src/themesplugins.ts:110
+msgid "Theme Scrollbars"
+msgstr "Scrollbar Tema"
+
+#: packages/apputils-extension/src/themesplugins.ts:117
+msgid "waiting for fonts"
+msgstr "mennuggu font"
+
+#: packages/apputils-extension/src/themesplugins.ts:165
+msgid "JupyterLab Theme"
+msgstr "Tema JupyterLab"
+
+#: packages/apputils-extension/src/themesplugins.ts:186 packages/apputils-extension/src/themesplugins.ts:262
+msgid "Increase Code Font Size"
+msgstr "Besarkan Ukuran Font Kode"
+
+#: packages/apputils-extension/src/themesplugins.ts:193 packages/apputils-extension/src/themesplugins.ts:270
+msgid "Decrease Code Font Size"
+msgstr "Kurangi Ukuran Font Kode"
+
+#: packages/apputils-extension/src/themesplugins.ts:203 packages/apputils-extension/src/themesplugins.ts:279
+msgid "Increase Content Font Size"
+msgstr "Besarkan Ukuran Font Konten"
+
+#: packages/apputils-extension/src/themesplugins.ts:210 packages/apputils-extension/src/themesplugins.ts:287
+msgid "Decrease Content Font Size"
+msgstr "Kurangi Ukuran Font Konten"
+
+#: packages/apputils-extension/src/themesplugins.ts:220 packages/apputils-extension/src/themesplugins.ts:296
+msgid "Increase UI Font Size"
+msgstr "Besarkan Ukuran Font UI"
+
+#: packages/apputils-extension/src/themesplugins.ts:227 packages/apputils-extension/src/themesplugins.ts:304
+msgid "Decrease UI Font Size"
+msgstr "Kurangi Ukuran Font UI"
+
+#: packages/apputils-extension/src/themesplugins.ts:96
+msgid "Use Theme: %1"
+msgstr "Gunakan Tema: %1"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:105
+msgid "Save Current Workspace"
+msgstr "Menyimpan ruang kerja saat ini"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:213
+msgid "Workspace loader"
+msgstr ""
+
+#: packages/apputils-extension/src/workspacesplugin.ts:286 packages/apputils-extension/src/workspacesplugin.ts:292 packages/docmanager/src/widgetmanager.ts:378 packages/docregistry/src/context.ts:879 packages/docregistry/src/context.ts:886
+msgid "Save"
+msgstr "Simpan"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:288 packages/apputils-extension/src/workspacesplugin.ts:91
+msgid "Save Current Workspace As..."
+msgstr "Menyimpan ruang kerja saat ini sebagai..."
+
+#: packages/apputils-extension/src/workspacesplugin.ts:290 packages/apputils/src/sessioncontext.tsx:1204 packages/docmanager-extension/src/index.ts:523 packages/docmanager-extension/src/index.ts:573 packages/docmanager-extension/src/index.ts:813 packages/docmanager/src/dialogs.ts:118 packages/docmanager/src/dialogs.ts:58 packages/docmanager/src/widgetmanager.ts:384 packages/extensionmanager/src/companions.tsx:218 packages/filebrowser/src/listing.ts:422 packages/filebrowser/src/model.ts:451 packages/filebrowser/src/opendialog.ts:83 packages/notebook/src/actions.tsx:1413 packages/running/src/index.tsx:238 packages/settingeditor/src/plugineditor.ts:148 packages/translation-extension/src/index.ts:144
+msgid "Cancel"
+msgstr "Batalkan"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:74
+msgid "JupyterLab workspace File"
+msgstr "Berkas ruang kerja JupyterLab"
+
+#: packages/apputils/src/sessioncontext.tsx:1205 packages/apputils/src/sessioncontext.tsx:1206 packages/apputils/src/sessioncontext.tsx:1226 packages/apputils/src/sessioncontext.tsx:1590 packages/apputils/src/sessioncontext.tsx:488 packages/apputils/src/sessioncontext.tsx:489 packages/apputils/src/sessioncontext.tsx:509 packages/apputils/src/sessioncontext.tsx:518 packages/apputils/src/sessioncontext.tsx:544 packages/apputils/src/sessioncontext.tsx:669
+msgid "No Kernel"
+msgstr "No Kernel"
+
+#: packages/apputils/src/sessioncontext.tsx:1210 packages/filebrowser/src/opendialog.ts:85
+msgid "Select"
+msgstr "Pilih"
+
+#: packages/apputils/src/sessioncontext.tsx:1214
+msgid "Select Kernel"
+msgstr "Pilih Kernel"
+
+#: packages/apputils/src/sessioncontext.tsx:1270
+msgid "Restart Kernel?"
+msgstr "Dimulai lagi kernel?"
+
+#: packages/apputils/src/sessioncontext.tsx:1271
+msgid "Do you want to restart the current kernel? All variables will be lost."
+msgstr "Apakah Anda akan dimuali lagi kernel saat ini? Semua variabel akan hilang."
+
+#: packages/apputils/src/sessioncontext.tsx:1325
+msgid "Select kernel for:"
+msgstr "Pilih Kernel untuk:"
+
+#: packages/apputils/src/sessioncontext.tsx:1459
+msgid "Start Preferred Kernel"
+msgstr "Mulai Kernel Pilihan"
+
+#: packages/apputils/src/sessioncontext.tsx:1474
+msgid "Start Other Kernel"
+msgstr "Mulai Kernel Lain"
+
+#: packages/apputils/src/sessioncontext.tsx:1523
+msgid "Use Kernel from Preferred Session"
+msgstr "Gunakan Kernel dari Sesi Pilihan"
+
+#: packages/apputils/src/sessioncontext.tsx:1538
+msgid "Use Kernel from Other Session"
+msgstr "Gunakan Kernel dari Sesi Lain"
+
+#: packages/apputils/src/sessioncontext.tsx:1612
+msgid "Path:"
+msgstr "Jalur:"
+
+#: packages/apputils/src/sessioncontext.tsx:1613
+msgid "Name:"
+msgstr "Nama:"
+
+#: packages/apputils/src/sessioncontext.tsx:1614
+msgid "Kernel Name:"
+msgstr "Nama Kernel:"
+
+#: packages/apputils/src/sessioncontext.tsx:1615
+msgid "Kernel Id:"
+msgstr "Id Kernel:"
+
+#: packages/apputils/src/sessioncontext.tsx:953
+msgid "Error Starting Kernel"
+msgstr "Kesalahan Memulai Kernel"
+
+#: packages/apputils/src/thememanager.ts:371
+msgid "Neither theme %1 nor default %2 loaded."
+msgstr ""
+
+#: packages/apputils/src/thememanager.ts:448
+msgid "Error Loading Theme"
+msgstr "Kesalahan Loading Tema"
+
+#: packages/apputils/src/thememanager.ts:450 packages/docmanager-extension/src/index.ts:684 packages/extensionmanager/src/companions.tsx:220 packages/extensionmanager/src/dialog.tsx:41 packages/extensionmanager/src/widget.tsx:356 packages/extensionmanager/src/widget.tsx:357
+msgid "OK"
+msgstr "OK"
+
+#: packages/apputils/src/toolbar.tsx:386
+msgid "Interrupt the kernel"
+msgstr "Interupsi Kernel"
+
+#: packages/apputils/src/toolbar.tsx:408
+msgid "Restart the kernel"
+msgstr "Dimulai lagi kernel"
+
+#: packages/apputils/src/toolbar.tsx:746
+msgid "Switch kernel"
+msgstr "Ganti kernel"
+
+#: packages/apputils/src/toolbar.tsx:786
+msgid "Kernel %1"
+msgstr "Kernel %1"
+
+#: packages/celltags/src/addwidget.ts:159 packages/celltags/src/addwidget.ts:31
+msgid "Add Tag"
+msgstr "Tambah Tag"
+
+#: packages/celltags/src/tool.ts:198
+msgid "Cell Tags"
+msgstr "Sel Tag"
+
+#: packages/codeeditor/src/jsoneditor.ts:313 packages/codeeditor/src/jsoneditor.ts:80
+msgid "No data!"
+msgstr "Tidak ada data!"
+
+#: packages/codeeditor/src/jsoneditor.ts:60
+msgid "Revert changes to data"
+msgstr "Kembalikan data yang diubah"
+
+#: packages/codeeditor/src/jsoneditor.ts:65
+msgid "Commit changes to data"
+msgstr "Commit data yang diubah"
+
+#: packages/codemirror-extension/src/index.ts:305
+msgid "Text Editor Theme"
+msgstr "Tema editor teks"
+
+#: packages/codemirror-extension/src/index.ts:306
+msgid "Text Editor Key Map"
+msgstr "Pentunju Kunci Editor Teks"
+
+#: packages/codemirror-extension/src/index.ts:307
+msgid "Text Editor Syntax Highlighting"
+msgstr ""
+
+#: packages/codemirror-extension/src/index.ts:312
+msgid "codemirror"
+msgstr "codemirror"
+
+#: packages/codemirror-extension/src/index.ts:332
+msgid "Sublime Text"
+msgstr "Teks Sublime"
+
+#: packages/codemirror-extension/src/index.ts:346
+msgid "Find..."
+msgstr "Cari..."
+
+#: packages/codemirror-extension/src/index.ts:359
+msgid "Go to Line..."
+msgstr "Pergi ke baris..."
+
+#: packages/codemirror-extension/src/index.ts:415
+msgid "jupyter"
+msgstr "jupyter"
+
+#: packages/codemirror-extension/src/index.ts:416 packages/codemirror-extension/src/index.ts:439 packages/docregistry/src/registry.ts:1261
+msgid "default"
+msgstr "default"
+
+#: packages/codemirror-extension/src/index.ts:417
+msgid "abcdef"
+msgstr "abcdef"
+
+#: packages/codemirror-extension/src/index.ts:418
+msgid "base16-dark"
+msgstr "base16-gelap"
+
+#: packages/codemirror-extension/src/index.ts:419
+msgid "base16-light"
+msgstr "base16-terang"
+
+#: packages/codemirror-extension/src/index.ts:420
+msgid "hopscotch"
+msgstr "hopscotch"
+
+#: packages/codemirror-extension/src/index.ts:421
+msgid "material"
+msgstr "material"
+
+#: packages/codemirror-extension/src/index.ts:422
+msgid "mbo"
+msgstr "mbo"
+
+#: packages/codemirror-extension/src/index.ts:423
+msgid "mdn-like"
+msgstr "mdn-like"
+
+#: packages/codemirror-extension/src/index.ts:424
+msgid "seti"
+msgstr "seti"
+
+#: packages/codemirror-extension/src/index.ts:425
+msgid "solarized dark"
+msgstr "gelap solarized"
+
+#: packages/codemirror-extension/src/index.ts:426
+msgid "solarized light"
+msgstr "terang solarized"
+
+#: packages/codemirror-extension/src/index.ts:427
+msgid "the-matrix"
+msgstr "the-matrix"
+
+#: packages/codemirror-extension/src/index.ts:428
+msgid "xq-light"
+msgstr "xq-terang"
+
+#: packages/codemirror-extension/src/index.ts:429
+msgid "zenburn"
+msgstr "zenburn"
+
+#: packages/codemirror-extension/src/index.ts:440
+msgid "sublime"
+msgstr "sublime"
+
+#: packages/codemirror-extension/src/index.ts:441
+msgid "vim"
+msgstr "vim"
+
+#: packages/codemirror-extension/src/index.ts:442
+msgid "emacs"
+msgstr "emacs"
+
+#: packages/codemirror/src/editor.ts:1079
+msgid "Code Editor out of Sync"
+msgstr ""
+
+#: packages/codemirror/src/editor.ts:1080
+msgid "Please open your browser JavaScript console for bug report instructions"
+msgstr "Silakan buka konsol JavaScript browser Anda untuk instruksi laporan bug"
+
+#: packages/codemirror/src/syntaxstatus.tsx:75
+msgid "Change text editor syntax highlighting"
+msgstr ""
+
+#: packages/console-extension/src/foreign.ts:71 packages/console-extension/src/index.ts:170 packages/console-extension/src/index.ts:222 packages/console-extension/src/index.ts:380 packages/console/src/panel.ts:333 packages/launcher/src/index.tsx:159 packages/launcher/src/index.tsx:164
+msgid "Console"
+msgstr "Konsol"
+
+#: packages/console-extension/src/index.ts:369
+msgid "New Console"
+msgstr "Konsol Baru"
+
+#: packages/console-extension/src/index.ts:404
+msgid "Clear Console Cells"
+msgstr "Kosongkan Sel Konsol"
+
+#: packages/console-extension/src/index.ts:416
+msgid "Run Cell (unforced)"
+msgstr "Menjalankan Sel (tidak terpaksa)"
+
+#: packages/console-extension/src/index.ts:428
+msgid "Run Cell (forced)"
+msgstr "Menjalankan Sel (terpaksa)"
+
+#: packages/console-extension/src/index.ts:440
+msgid "Insert Line Break"
+msgstr "Sisipkan Jeda Baris"
+
+#: packages/console-extension/src/index.ts:452
+msgid "Replace Selection in Console"
+msgstr "Ganti Pilihan di Konsol"
+
+#: packages/console-extension/src/index.ts:465 packages/mainmenu-extension/src/index.ts:516 packages/notebook-extension/src/index.ts:1381
+msgid "Interrupt Kernel"
+msgstr "Interupsi Kernel"
+
+#: packages/console-extension/src/index.ts:480 packages/mainmenu-extension/src/index.ts:536 packages/notebook-extension/src/index.ts:1212
+msgid "Restart Kernel…"
+msgstr "Dimulai lagi kernel…"
+
+#: packages/console-extension/src/index.ts:495
+msgid "Close and Shut Down…"
+msgstr "Tutup dan Matikan…"
+
+#: packages/console-extension/src/index.ts:502
+msgid "Shut down the console?"
+msgstr "Matikan konsol?"
+
+#: packages/console-extension/src/index.ts:503 packages/console-extension/src/index.ts:585 packages/notebook-extension/src/index.ts:1235 packages/notebook-extension/src/index.ts:2154
+msgid "Are you sure you want to close \"%1\"?"
+msgstr "Kamu yakin kamu mau tutup \"%1\"?"
+
+#: packages/console-extension/src/index.ts:543 packages/mainmenu-extension/src/index.ts:571 packages/notebook-extension/src/index.ts:1706
+msgid "Change Kernel…"
+msgstr "Ganti Kernel…"
+
+#: packages/console-extension/src/index.ts:581
+msgid "Shutdown Console"
+msgstr "Matikan Konsol"
+
+#: packages/console-extension/src/index.ts:584
+msgid "Shut down the Console?"
+msgstr "Matikan Konsol?"
+
+#: packages/console-extension/src/index.ts:606
+msgid "Restart Kernel and Clear Console"
+msgstr "Dimulai Lagi Kernel dan Kosongkan Konsol"
+
+#: packages/console-extension/src/index.ts:637
+msgid "Run Cell"
+msgstr "Menjalankan Cell"
+
+#: packages/console-extension/src/index.ts:644
+msgid "Clear Console Cell"
+msgstr "Kosongkan Sel Konsol"
+
+#: packages/console-extension/src/index.ts:657
+msgid "Execute with Shift+Enter"
+msgstr "Eksekusi dengan Shift+Enter"
+
+#: packages/console-extension/src/index.ts:658
+msgid "Execute with Enter"
+msgstr "Eksekusi dengan Enter"
+
+#: packages/console-extension/src/index.ts:680
+msgid "Console Run Keystroke"
+msgstr ""
+
+#: packages/console/src/panel.ts:316
+msgid "Name: %1\n"
+msgstr "Nama:%1\n"
+
+#: packages/console/src/panel.ts:317
+msgid "Directory: %1\n"
+msgstr "Direktori:%1\n"
+
+#: packages/console/src/panel.ts:318
+msgid "Kernel: %1"
+msgstr "Kernel %1"
+
+#: packages/console/src/panel.ts:321
+msgid "\n"
+"Connected: %1"
+msgstr "\n"
+"Terhubung: %1"
+
+#: packages/console/src/panel.ts:328
+msgid "\n"
+"Last Execution: %1"
+msgstr "\n"
+"Eksekusi Terakhir: %1"
+
+#: packages/console/src/panel.ts:69
+msgid "Console %1"
+msgstr "Konsol %1"
+
+#: packages/csvviewer-extension/src/index.ts:83
+msgid "Go to Line"
+msgstr "Pergi ke baris"
+
+#: packages/csvviewer/src/toolbar.ts:128
+msgid "tab"
+msgstr "tab"
+
+#: packages/csvviewer/src/toolbar.ts:129
+msgid "pipe"
+msgstr "pipe"
+
+#: packages/csvviewer/src/toolbar.ts:130
+msgid "hash"
+msgstr "hash"
+
+#: packages/csvviewer/src/toolbar.ts:136
+msgid "Delimiter: "
+msgstr "Delimiter: "
+
+#: packages/debugger-extension/src/index.ts:294 packages/debugger-extension/src/index.ts:295
+msgid "Inspect Variable"
+msgstr "Memeriksa Variabel"
+
+#: packages/debugger-extension/src/index.ts:439 packages/debugger-extension/src/index.ts:440
+msgid "Continue"
+msgstr "Terus"
+
+#: packages/debugger-extension/src/index.ts:452 packages/debugger-extension/src/index.ts:453
+msgid "Terminate"
+msgstr "Mengakhiri"
+
+#: packages/debugger-extension/src/index.ts:465 packages/debugger-extension/src/index.ts:466
+msgid "Next"
+msgstr "Lanjut"
+
+#: packages/debugger-extension/src/index.ts:477 packages/debugger-extension/src/index.ts:478
+msgid "Step In"
+msgstr "Masuk"
+
+#: packages/debugger-extension/src/index.ts:489 packages/debugger-extension/src/index.ts:490
+msgid "Step Out"
+msgstr "Keluar"
+
+#: packages/debugger-extension/src/index.ts:518
+msgid "Debugger"
+msgstr "Debugger"
+
+#: packages/debugger/src/handler.ts:54 packages/debugger/src/handler.ts:80
+msgid "Enable / Disable Debugger"
+msgstr "Diaktifkan / Nonaktifkan Debugger"
+
+#: packages/debugger/src/panels/breakpoints/header.ts:23
+msgid "Breakpoints"
+msgstr "Titik Putus"
+
+#: packages/debugger/src/panels/breakpoints/index.ts:45
+msgid "Remove All Breakpoints"
+msgstr "Hilangkan Semua Titik Putus"
+
+#: packages/debugger/src/panels/callstack/header.ts:23
+msgid "Callstack"
+msgstr "Callstack"
+
+#: packages/debugger/src/panels/sources/header.tsx:32
+msgid "Source"
+msgstr "Sumber"
+
+#: packages/debugger/src/panels/sources/index.ts:48
+msgid "Open in the Main Area"
+msgstr "Buka di Area Utama"
+
+#: packages/debugger/src/panels/variables/header.ts:23
+msgid "Variables"
+msgstr "Variabel"
+
+#: packages/debugger/src/panels/variables/index.ts:73
+msgid "Tree View"
+msgstr "Tampilan Pohon"
+
+#: packages/debugger/src/panels/variables/index.ts:80
+msgid "Table View"
+msgstr "Tampilan Tabel"
+
+#: packages/debugger/src/panels/variables/scope.tsx:53
+msgid "Scope"
+msgstr "Cakupan"
+
+#: packages/docmanager-extension/src/index.ts:235
+msgid "Overrides for the default viewers for file types.\n"
+"Specify a mapping from file type name to document viewer name, for example:\n\n"
+"defaultViewers: {\n"
+"  markdown: \"Markdown Preview\"\n"
+"}\n\n"
+"If you specify non-existent file types or viewers, or if a viewer cannot\n"
+"open a given file type, the override will not function.\n\n"
+"Available viewers:\n"
+"%1\n\n"
+"Available file types:\n"
+"%2"
+msgstr ""
+
+#: packages/docmanager-extension/src/index.ts:393 packages/filebrowser-extension/src/index.ts:636 packages/filebrowser-extension/src/index.ts:921 packages/htmlviewer-extension/src/index.tsx:136
+msgid "File Operations"
+msgstr "Operasi Berkas"
+
+#: packages/docmanager-extension/src/index.ts:434 packages/logconsole-extension/src/index.tsx:409
+msgid "Error"
+msgstr "Kesalahan"
+
+#: packages/docmanager-extension/src/index.ts:490 packages/filebrowser-extension/src/index.ts:703
+msgid "Open in New Browser Tab"
+msgstr "Buka di Tab Peramban Baru"
+
+#: packages/docmanager-extension/src/index.ts:495 packages/docmanager-extension/src/index.ts:517
+msgid "Reload %1 from Disk"
+msgstr "Dimuat ulang %1 dari Disket"
+
+#: packages/docmanager-extension/src/index.ts:499
+msgid "Reload contents from disk"
+msgstr "Dimuat ulang ukuran dari disket"
+
+#: packages/docmanager-extension/src/index.ts:510
+msgid "Cannot Reload"
+msgstr "Tidak bisa dimuat ulang"
+
+#: packages/docmanager-extension/src/index.ts:511 packages/docmanager-extension/src/index.ts:556 packages/docmanager-extension/src/index.ts:602 packages/docmanager-extension/src/index.ts:663 packages/docmanager-extension/src/index.ts:683
+msgid "No context found for current widget!"
+msgstr ""
+
+#: packages/docmanager-extension/src/index.ts:512 packages/docmanager-extension/src/index.ts:557 packages/docmanager-extension/src/index.ts:603 packages/docmanager-extension/src/index.ts:610 packages/docmanager-extension/src/index.ts:664 packages/notebook/src/actions.tsx:1405 packages/notebook/src/actions.tsx:1414 packages/notebook/src/actions.tsx:1604 packages/notebook/src/default-toolbar.tsx:69 packages/notebook/src/model.ts:295 packages/notebook/src/panel.ts:208 packages/settingeditor/src/plugineditor.ts:149 packages/settingeditor/src/plugineditor.ts:271 packages/translation-extension/src/index.ts:145
+msgid "Ok"
+msgstr "Ok"
+
+#: packages/docmanager-extension/src/index.ts:518
+msgid "Are you sure you want to reload the %1 from the disk?"
+msgstr "Apakah anda yakin ingin dimuat ulang %1 dari disket?"
+
+#: packages/docmanager-extension/src/index.ts:524
+msgid "Reload"
+msgstr "Dimuat Ulang"
+
+#: packages/docmanager-extension/src/index.ts:541
+msgid "Revert %1 to Checkpoint"
+msgstr "Kembali %1 ke Titik Permeriksaan"
+
+#: packages/docmanager-extension/src/index.ts:545
+msgid "Revert contents to previous checkpoint"
+msgstr "Kembali isi ke titik permeriksaan sebelumnya"
+
+#: packages/docmanager-extension/src/index.ts:555
+msgid "Cannot Revert"
+msgstr "Tidak bisa kembali"
+
+#: packages/docmanager-extension/src/index.ts:570
+msgid "Revert %1 to checkpoint"
+msgstr "Kembali %1 ke Titik Permeriksaan"
+
+#: packages/docmanager-extension/src/index.ts:574 packages/docregistry/src/context.ts:720 packages/docregistry/src/context.ts:736
+msgid "Revert"
+msgstr "Kembali"
+
+#: packages/docmanager-extension/src/index.ts:592
+msgid "Save %1"
+msgstr "Simpan %1"
+
+#: packages/docmanager-extension/src/index.ts:593
+msgid "Save and create checkpoint"
+msgstr "Menyimpan dan buat titik pemeriksaan"
+
+#: packages/docmanager-extension/src/index.ts:601 packages/docmanager-extension/src/index.ts:608 packages/docmanager-extension/src/index.ts:662 packages/notebook/src/default-toolbar.tsx:67
+msgid "Cannot Save"
+msgstr "Tidak Bisa Menyimpan"
+
+#: packages/docmanager-extension/src/index.ts:609 packages/notebook/src/default-toolbar.tsx:68
+msgid "Document is read-only"
+msgstr "Dokumen hanya bisa dibaca"
+
+#: packages/docmanager-extension/src/index.ts:629
+msgid "Save All"
+msgstr "Simpan Semua"
+
+#: packages/docmanager-extension/src/index.ts:630
+msgid "Save all open documents"
+msgstr "Simpan semua dokumen yang terbuka"
+
+#: packages/docmanager-extension/src/index.ts:653
+msgid "Save %1 As…"
+msgstr "Disimpan sebagai %1…"
+
+#: packages/docmanager-extension/src/index.ts:654
+msgid "Save with new path"
+msgstr "Simpan dengan jalur baru"
+
+#: packages/docmanager-extension/src/index.ts:673 packages/filebrowser-extension/src/index.ts:529
+msgid "Download"
+msgstr "Mengunduh"
+
+#: packages/docmanager-extension/src/index.ts:674
+msgid "Download the file to your computer"
+msgstr "Unduh berkas ke komputer Anda"
+
+#: packages/docmanager-extension/src/index.ts:682
+msgid "Cannot Download"
+msgstr "Tidak bisa mengunduh"
+
+#: packages/docmanager-extension/src/index.ts:767
+msgid "New View for %1"
+msgstr "Tampilan Baru untuk %1"
+
+#: packages/docmanager-extension/src/index.ts:787
+msgid "Rename %1…"
+msgstr "Ganti Nama %1…"
+
+#: packages/docmanager-extension/src/index.ts:800
+msgid "Delete %1"
+msgstr "Hapus %1"
+
+#: packages/docmanager-extension/src/index.ts:810 packages/docmanager-extension/src/index.ts:814 packages/filebrowser-extension/src/index.ts:491 packages/filebrowser/src/listing.ts:419 packages/filebrowser/src/listing.ts:423
+msgid "Delete"
+msgstr "Hapus"
+
+#: packages/docmanager-extension/src/index.ts:811
+msgid "Are you sure you want to delete %1"
+msgstr "Kamu yakin kamu mau hapus %1"
+
+#: packages/docmanager-extension/src/index.ts:828
+msgid "Show in File Browser"
+msgstr "Tampilkan di peramban berkas"
+
+#: packages/docmanager-extension/src/index.ts:915
+msgid "Are you sure you want to revert the %1 to the latest checkpoint? "
+msgstr ""
+
+#: packages/docmanager-extension/src/index.ts:921
+msgid "This cannot be undone."
+msgstr "Ini tidak bisa diulang."
+
+#: packages/docmanager-extension/src/index.ts:928
+msgid "The checkpoint was last updated at: "
+msgstr "Titik pemeriksaan sudah diperbarui di: "
+
+#: packages/docmanager/src/dialogs.ts:115
+msgid "Overwrite file?"
+msgstr "Menimpa berkas?"
+
+#: packages/docmanager/src/dialogs.ts:116
+msgid "\"%1\" already exists, overwrite?"
+msgstr "\"%1\" sudah ada, menimpa?"
+
+#: packages/docmanager/src/dialogs.ts:119 packages/docregistry/src/context.ts:722 packages/docregistry/src/context.ts:732 packages/docregistry/src/context.ts:754 packages/docregistry/src/context.ts:765
+msgid "Overwrite"
+msgstr "Menimpa"
+
+#: packages/docmanager/src/dialogs.ts:183
+msgid "File Path"
+msgstr "Jalur Berkas"
+
+#: packages/docmanager/src/dialogs.ts:188
+msgid "New Name"
+msgstr "Nama Baru"
+
+#: packages/docmanager/src/dialogs.ts:54
+msgid "Rename File"
+msgstr "Ganti nama berkas"
+
+#: packages/docmanager/src/dialogs.ts:59 packages/filebrowser-extension/src/index.ts:789
+msgid "Rename"
+msgstr "Ganti nama"
+
+#: packages/docmanager/src/dialogs.ts:67
+msgid "Rename Error"
+msgstr "Ganti Nama Kesalahan"
+
+#: packages/docmanager/src/dialogs.ts:69
+msgid "\"%1\" is not a valid name for a file. Names must have nonzero length, and cannot include \"/\", \"\\\", or \":\""
+msgstr ""
+
+#: packages/docmanager/src/savingstatus.tsx:50
+msgid "Saving %1"
+msgstr "Menyimpan %1"
+
+#: packages/docmanager/src/widgetmanager.ts:278
+msgid "Name: %1\n"
+"Path: %2\n"
+msgstr "Nama: %1\n"
+"Jalur: %2\n"
+
+#: packages/docmanager/src/widgetmanager.ts:284
+msgid "Read-only"
+msgstr "Baca saja"
+
+#: packages/docmanager/src/widgetmanager.ts:287
+msgid "Last Saved: %1\n"
+msgstr "Terakhir Disimpan: %1 \n"
+
+#: packages/docmanager/src/widgetmanager.ts:288
+msgid "Last Checkpoint: %1"
+msgstr "Terakhir Titik Permeriksaan: %1"
+
+#: packages/docmanager/src/widgetmanager.ts:379
+msgid "Save as"
+msgstr "Simpan sebagai"
+
+#: packages/docmanager/src/widgetmanager.ts:381
+msgid "Save your work"
+msgstr "Simpan hasil kerjamu"
+
+#: packages/docmanager/src/widgetmanager.ts:382
+msgid "Save changes in \"%1\" before closing?"
+msgstr "Menyimpa perubahan di \"%1\" sebelum ditutup?"
+
+#: packages/docmanager/src/widgetmanager.ts:385
+msgid "Discard"
+msgstr "Buang"
+
+#: packages/docregistry/src/context.ts:557
+msgid "File Save Error for %1"
+msgstr "Kesahlahan Menyimpa Berkas untuk %1"
+
+#: packages/docregistry/src/context.ts:620
+msgid "File Load Error for %1"
+msgstr "Kesahlahan Load Berkas untuk %1"
+
+#: packages/docregistry/src/context.ts:714
+msgid "\"%1\" has changed on disk since the last time it was opened or saved.\n"
+"Do you want to overwrite the file on disk with the version open here, \n"
+"or load the version on disk (revert)?"
+msgstr ""
+
+#: packages/docregistry/src/context.ts:725
+msgid "File Changed"
+msgstr "Berkas sudah diubah"
+
+#: packages/docregistry/src/context.ts:749
+msgid "\"%1\" already exists. Do you want to replace it?"
+msgstr "\"%1\" sudah ada. Apakah anda ingin menimpa file berikut?"
+
+#: packages/docregistry/src/context.ts:757
+msgid "File Overwrite?"
+msgstr "Menimpa Berkas?"
+
+#: packages/docregistry/src/context.ts:881
+msgid "Save File As.."
+msgstr "Menyimpa Berkas sebagai.."
+
+#: packages/docregistry/src/mimedocument.ts:182 packages/docregistry/src/mimedocument.ts:78 packages/markdownviewer/src/widget.ts:210
+msgid "Renderer Failure: %1"
+msgstr ""
+
+#: packages/docregistry/src/registry.ts:1284
+msgid "Text"
+msgstr "Teks"
+
+#: packages/docregistry/src/registry.ts:1307 packages/launcher/src/index.tsx:158 packages/launcher/src/index.tsx:163 packages/notebook-extension/src/index.ts:475 packages/notebook-extension/src/index.ts:744 packages/notebook-extension/src/index.ts:785
+msgid "Notebook"
+msgstr "Notebook"
+
+#: packages/docregistry/src/registry.ts:1332
+msgid "Directory"
+msgstr "Direktori"
+
+#: packages/docregistry/src/registry.ts:1359 packages/fileeditor-extension/src/commands.ts:893
+msgid "Markdown File"
+msgstr "Berkas Markdown"
+
+#: packages/docregistry/src/registry.ts:1366
+msgid "PDF File"
+msgstr "Berkas PDF"
+
+#: packages/docregistry/src/registry.ts:1373
+msgid "Python File"
+msgstr "Berkas Python"
+
+#: packages/docregistry/src/registry.ts:1380
+msgid "JSON File"
+msgstr "Berkas JSON"
+
+#: packages/docregistry/src/registry.ts:1387
+msgid "CSV File"
+msgstr "Berkas CSV"
+
+#: packages/docregistry/src/registry.ts:1394
+msgid "TSV File"
+msgstr "Berkas TSV"
+
+#: packages/docregistry/src/registry.ts:1401
+msgid "R File"
+msgstr "Berkas R"
+
+#: packages/docregistry/src/registry.ts:1408
+msgid "YAML File"
+msgstr "Berkas YAML"
+
+#: packages/docregistry/src/registry.ts:1415 packages/docregistry/src/registry.ts:1423 packages/docregistry/src/registry.ts:1431 packages/docregistry/src/registry.ts:1439 packages/docregistry/src/registry.ts:1447 packages/docregistry/src/registry.ts:1455
+msgid "Image"
+msgstr "Gambar"
+
+#: packages/documentsearch-extension/src/index.ts:144
+msgid "Find…"
+msgstr "Cari…"
+
+#: packages/documentsearch-extension/src/index.ts:155
+msgid "Find and Replace…"
+msgstr "Cari dan Ganti…"
+
+#: packages/documentsearch-extension/src/index.ts:167
+msgid "Find Next"
+msgstr "Cari Selanjutnya"
+
+#: packages/documentsearch-extension/src/index.ts:191
+msgid "Find Previous"
+msgstr "Cari Sebelumnya"
+
+#: packages/documentsearch/src/searchoverlay.tsx:125
+msgid "Find"
+msgstr "Cari"
+
+#: packages/documentsearch/src/searchoverlay.tsx:174 packages/documentsearch/src/searchoverlay.tsx:192
+msgid "Replace"
+msgstr "Ganti"
+
+#: packages/documentsearch/src/searchoverlay.tsx:204
+msgid "Replace All"
+msgstr "Ganti Semua"
+
+#: packages/extensionmanager-extension/src/index.ts:109 packages/extensionmanager-extension/src/index.ts:58
+msgid "Extension Manager"
+msgstr "Ekstensi Manajer"
+
+#: packages/extensionmanager-extension/src/index.ts:139
+msgid "Enable Extension Manager?"
+msgstr "Aftikan ekstensi manajer?"
+
+#: packages/extensionmanager-extension/src/index.ts:140
+msgid "Thanks for trying out JupyterLab's extension manager.\n"
+"The JupyterLab development team is excited to have a robust\n"
+"third-party extension community.\n"
+"However, we cannot vouch for every extension,\n"
+"and some may introduce security risks.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: packages/extensionmanager-extension/src/index.ts:147 packages/extensionmanager/src/widget.tsx:331 packages/extensionmanager/src/widget.tsx:800
+msgid "Disable"
+msgstr "Nonaktifkan"
+
+#: packages/extensionmanager-extension/src/index.ts:148 packages/extensionmanager/src/widget.tsx:340 packages/extensionmanager/src/widget.tsx:815
+msgid "Enable"
+msgstr "Diaftikan"
+
+#: packages/extensionmanager-extension/src/index.ts:99
+msgid "Enable Extension Manager"
+msgstr "Aftikan ekstensi manajer"
+
+#: packages/extensionmanager/src/companions.tsx:139
+msgid "This package has indicated that it needs a corresponding server\n"
+"extension. Please contact your Administrator to update the server with\n"
+"one of the following commands:"
+msgstr ""
+
+#: packages/extensionmanager/src/companions.tsx:155
+msgid "This package has indicated that it needs a corresponding package for the kernel."
+msgstr ""
+
+#: packages/extensionmanager/src/companions.tsx:163
+msgid "The package <code>%1</code>, is required by the following kernels:"
+msgstr "Paket <code>%1</code>, dibutuhkan oleh kernel berikut ini:"
+
+#: packages/extensionmanager/src/companions.tsx:180
+msgid "This package has indicated that it needs a corresponding kernel\n"
+"package. Please contact your Administrator to update the server with\n"
+"one of the following commands:"
+msgstr ""
+
+#: packages/extensionmanager/src/companions.tsx:198
+msgid "You should make sure that the indicated packages are installed before\n"
+"trying to use the extension. Do you want to continue with the extension\n"
+"installation?"
+msgstr ""
+
+#: packages/extensionmanager/src/companions.tsx:208
+msgid "Kernel and Server Companions"
+msgstr "Pendamping Kernel dan Server"
+
+#: packages/extensionmanager/src/companions.tsx:210
+msgid "Kernel Companions"
+msgstr "Pendamping Kernel"
+
+#: packages/extensionmanager/src/companions.tsx:212
+msgid "Server Companion"
+msgstr "Pendamping Server"
+
+#: packages/extensionmanager/src/companions.tsx:221
+msgid "Install the JupyterLab extension."
+msgstr "Instal ekstensi JupyterLab."
+
+#: packages/extensionmanager/src/dialog.tsx:25
+msgid "An error occurred installing <code>%1</code>."
+msgstr ""
+
+#: packages/extensionmanager/src/dialog.tsx:31
+msgid "Error message:"
+msgstr "Pesan kesalahan:"
+
+#: packages/extensionmanager/src/dialog.tsx:39
+msgid "Extension Installation Error"
+msgstr "Kesalahan instalasi ekstensi"
+
+#: packages/extensionmanager/src/widget.tsx:137
+msgid "A build is needed to include the latest changes"
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:140
+msgid "Rebuild"
+msgstr "Bangun Kembali"
+
+#: packages/extensionmanager/src/widget.tsx:143
+msgid "Ignore"
+msgstr "Abaikan"
+
+#: packages/extensionmanager/src/widget.tsx:195
+msgid "%1 (Developed by Project Jupyter)"
+msgstr "%1 (Dikembangkan oleh Proyek Jupyter)"
+
+#: packages/extensionmanager/src/widget.tsx:249
+msgid "%1 extension has been blockedExtensions since install. Please uninstall immediately and contact your blockedExtensions administrator."
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:265
+msgid "%1 extension has been removed from the allowedExtensions since installation. Please uninstall immediately and contact your allowedExtensions administrator."
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:300
+msgid "Install"
+msgstr "Instal"
+
+#: packages/extensionmanager/src/widget.tsx:313
+msgid "Update"
+msgstr "Diperbarui"
+
+#: packages/extensionmanager/src/widget.tsx:322
+msgid "Uninstall"
+msgstr "Hapus instalan"
+
+#: packages/extensionmanager/src/widget.tsx:367
+msgid "About"
+msgstr "Tentang"
+
+#: packages/extensionmanager/src/widget.tsx:386
+msgid "This is a prebuilt extension. To uninstall it, please\n"
+"    apply following instructions."
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:396
+msgid "This is a prebuilt extension. To uninstall it, please\n"
+"    read the user guide on:"
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:493
+msgid "No entries"
+msgstr "Tidak ada entri"
+
+#: packages/extensionmanager/src/widget.tsx:724
+msgid "The extension manager is disabled. Please contact your system\n"
+"administrator to verify the listings configuration."
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:734
+msgid "Read more in the JupyterLab documentation."
+msgstr "Baca lebih banyak di dokumentasi JupyterLab."
+
+#: packages/extensionmanager/src/widget.tsx:778 packages/logconsole-extension/src/index.tsx:410
+msgid "Warning"
+msgstr "Perhatian"
+
+#: packages/extensionmanager/src/widget.tsx:782
+msgid "The JupyterLab development team is excited to have a robust\n"
+"third-party extension community. However, we do not review\n"
+"third-party extensions, and some extensions may introduce security\n"
+"risks or contain malicious code that runs on your machine."
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:825
+msgid "Updating extensions list"
+msgstr "Memperbarui daftar ekstensi"
+
+#: packages/extensionmanager/src/widget.tsx:832
+msgid "Error communicating with server extension. Consult the documentation\n"
+"            for how to ensure that it is enabled."
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:837
+msgid "Reason given:"
+msgstr "Alasan Yang Diberikan:"
+
+#: packages/extensionmanager/src/widget.tsx:845
+msgid "The server has some missing requirements for installing extensions."
+msgstr ""
+
+#: packages/extensionmanager/src/widget.tsx:850
+msgid "Details:"
+msgstr "Rinci:"
+
+#: packages/extensionmanager/src/widget.tsx:889
+msgid "Installed"
+msgstr "Sudah diinstal"
+
+#: packages/extensionmanager/src/widget.tsx:897
+msgid "Refresh extension list"
+msgstr "Segarkan daftar ekstensi"
+
+#: packages/extensionmanager/src/widget.tsx:942
+msgid "Search Results"
+msgstr "Mencari Hasil Penelitian"
+
+#: packages/extensionmanager/src/widget.tsx:943
+msgid "Discover"
+msgstr "Menemukan"
+
+#: packages/filebrowser-extension/src/index.ts:1036
+msgid "Open With"
+msgstr "Buka dengan"
+
+#: packages/filebrowser-extension/src/index.ts:1176
+msgid "No browser for path"
+msgstr "Tidak ada peramban untuk jalur"
+
+#: packages/filebrowser-extension/src/index.ts:277 packages/filebrowser-extension/src/index.ts:866 packages/launcher-extension/src/index.ts:60
+msgid "New Launcher"
+msgstr "Launcher Baru"
+
+#: packages/filebrowser-extension/src/index.ts:345
+msgid "File Browser (%1)"
+msgstr "Peramban Berkas (%1)"
+
+#: packages/filebrowser-extension/src/index.ts:347
+msgid "File Browser"
+msgstr "Peramban Berkas"
+
+#: packages/filebrowser-extension/src/index.ts:461
+msgid "Copy Shareable Link"
+msgstr "Salin Link yang Dibagikan"
+
+#: packages/filebrowser-extension/src/index.ts:504 packages/fileeditor-extension/src/commands.ts:753
+msgid "Copy"
+msgstr "Menyalin"
+
+#: packages/filebrowser-extension/src/index.ts:517 packages/fileeditor-extension/src/commands.ts:712
+msgid "Cut"
+msgstr "Potong"
+
+#: packages/filebrowser-extension/src/index.ts:541
+msgid "Duplicate"
+msgstr "Duplikat"
+
+#: packages/filebrowser-extension/src/index.ts:581
+msgid "Open from Path…"
+msgstr "Buka dari Jalur…"
+
+#: packages/filebrowser-extension/src/index.ts:581 packages/filebrowser-extension/src/index.ts:583
+msgid "Open %1"
+msgstr "Buka %1"
+
+#: packages/filebrowser-extension/src/index.ts:583
+msgid "Open from path"
+msgstr "Buka dari Jalur"
+
+#: packages/filebrowser-extension/src/index.ts:592
+msgid "Path"
+msgstr "Jalur"
+
+#: packages/filebrowser-extension/src/index.ts:594
+msgid "Open Path"
+msgstr "Buka Jalur"
+
+#: packages/filebrowser-extension/src/index.ts:595 packages/filebrowser-extension/src/index.ts:680
+msgid "Open"
+msgstr "Buka"
+
+#: packages/filebrowser-extension/src/index.ts:626
+msgid "Could not find path: %1"
+msgstr "Tidak bisa menemukan jalur %1"
+
+#: packages/filebrowser-extension/src/index.ts:628
+msgid "Cannot open"
+msgstr "Tidak bisa buka"
+
+#: packages/filebrowser-extension/src/index.ts:721
+msgid "Copy Download Link"
+msgstr "Salin Link Unduhan"
+
+#: packages/filebrowser-extension/src/index.ts:734 packages/fileeditor-extension/src/commands.ts:787
+msgid "Paste"
+msgstr "Tempel"
+
+#: packages/filebrowser-extension/src/index.ts:747 packages/filebrowser/src/browser.ts:96
+msgid "New Folder"
+msgstr "Folder baru"
+
+#: packages/filebrowser-extension/src/index.ts:762
+msgid "New File"
+msgstr "Berkas Baru"
+
+#: packages/filebrowser-extension/src/index.ts:777 packages/fileeditor-extension/src/commands.ts:892
+msgid "New Markdown File"
+msgstr "Berkas Markdown Baru"
+
+#: packages/filebrowser-extension/src/index.ts:810
+msgid "Copy Path"
+msgstr "Salin Jalur"
+
+#: packages/filebrowser-extension/src/index.ts:852 packages/mainmenu-extension/src/index.ts:577
+msgid "Shut Down Kernel"
+msgstr "Matikan kernel"
+
+#: packages/filebrowser-extension/src/index.ts:871
+msgid "Show Active File in File Browser"
+msgstr "Tampilkan Berkas Aktif di Peramban Berkas"
+
+#: packages/filebrowser-extension/src/index.ts:885
+msgid "Toggle Last Modified Column"
+msgstr "Alihkan Kolom Terakhir Diubah"
+
+#: packages/filebrowser-extension/src/index.ts:907
+msgid "Search on File Names"
+msgstr "Cari Nama Berkas"
+
+#: packages/filebrowser/src/browser.ts:105
+msgid "Refresh File List"
+msgstr "Segarkan daftar berkas"
+
+#: packages/filebrowser/src/browser.ts:121 packages/filebrowser/src/browser.ts:175
+msgid "Filter files by name"
+msgstr "Menyaring berkas berdasarkan nama"
+
+#: packages/filebrowser/src/browser.ts:342
+msgid "Directory not found"
+msgstr "Direktori tidak ditemukan"
+
+#: packages/filebrowser/src/browser.ts:343 packages/filebrowser/src/model.ts:304
+msgid "Directory not found: \"%1\""
+msgstr "Direktori tidak ditemukan: \"%1\""
+
+#: packages/filebrowser/src/crumbs.ts:173
+msgid "Open Error"
+msgstr "Buka Kesalahan"
+
+#: packages/filebrowser/src/crumbs.ts:281
+msgid "Move Error"
+msgstr "Kesalahan Pindah"
+
+#: packages/filebrowser/src/listing.ts:1202
+msgctxt "showErrorMessage"
+msgid "Error while copying/moving files"
+msgstr "Kesalahan selagi menyalin/pindah berkas-berkas"
+
+#: packages/filebrowser/src/listing.ts:1419
+msgctxt "showErrorMessage"
+msgid "Delete Failed"
+msgstr "Gagal Menghapus"
+
+#: packages/filebrowser/src/listing.ts:1450
+msgid "showErrorMessage"
+msgstr "showErrorMessage"
+
+#: packages/filebrowser/src/listing.ts:1452
+msgctxt "showErrorMessage"
+msgid "\"%1\" is not a valid name for a file. Names must have nonzero length, and cannot include \"/\", \"\\\", or \":\""
+msgstr ""
+
+#: packages/filebrowser/src/listing.ts:1476
+msgctxt "showErrorMessage"
+msgid "Rename Error"
+msgstr "Ganti Nama Kesalahan"
+
+#: packages/filebrowser/src/listing.ts:1781
+msgid "Name"
+msgstr "Nama"
+
+#: packages/filebrowser/src/listing.ts:1783
+msgid "Last Modified"
+msgstr "Terakhir Diubah"
+
+#: packages/filebrowser/src/listing.ts:1926
+msgid "Name: %1"
+msgstr "Nama: %1"
+
+#: packages/filebrowser/src/listing.ts:1930
+msgid "\n"
+"Size: %1"
+msgstr "\n"
+"Ukuran: %1"
+
+#: packages/filebrowser/src/listing.ts:1938
+msgid "\n"
+"Path: %1"
+msgstr "\n"
+"Jalur: %1"
+
+#: packages/filebrowser/src/listing.ts:1945
+msgid "\n"
+"Created: %1"
+msgstr "\n"
+"Buat: %1"
+
+#: packages/filebrowser/src/listing.ts:1951
+msgid "\n"
+"Modified: %1"
+msgstr "\n"
+"Diubah: %1"
+
+#: packages/filebrowser/src/listing.ts:1956
+msgid "\n"
+"Writable: %1"
+msgstr "\n"
+"Bisa ditulis: %1"
+
+#: packages/filebrowser/src/listing.ts:2026
+msgid "%1 Item"
+msgid_plural "%1 Items"
+msgstr[0] "%1 Item"
+
+#: packages/filebrowser/src/listing.ts:389
+msgctxt "showErrorMessage"
+msgid "Paste Error"
+msgstr "Tempel Kesalahan"
+
+#: packages/filebrowser/src/listing.ts:409
+msgid "Are you sure you want to permanently delete: %1?"
+msgstr "Apakah Anda yakin mau menghapus secara permanen: %1?"
+
+#: packages/filebrowser/src/listing.ts:413
+msgid "Are you sure you want to permanently delete the %1 selected item?"
+msgid_plural "Are you sure you want to permanently delete the %1 selected items?"
+msgstr[0] "Apakah Anda yakin ingin menghapus %1 item terpilih?"
+
+#: packages/filebrowser/src/listing.ts:453
+msgctxt "showErrorMessage"
+msgid "Duplicate file"
+msgstr "Berkas duplikat"
+
+#: packages/filebrowser/src/listing.ts:493
+msgctxt "showErrorMessage"
+msgid "Shut down kernel"
+msgstr "Matikan kernel"
+
+#: packages/filebrowser/src/listing.ts:836
+msgid "%1\n"
+"Kernel: %2"
+msgstr "%1\n"
+"Kernel: %2"
+
+#: packages/filebrowser/src/listing.ts:981
+msgctxt "showErrorMessage"
+msgid "Open directory"
+msgstr "Buka direktori"
+
+#: packages/filebrowser/src/model.ts:100
+msgid "Files still uploading"
+msgstr "Berkas masih mengunggah"
+
+#: packages/filebrowser/src/model.ts:416
+msgid "Cannot upload file (>%1 MB). %2"
+msgstr "Tidak bisa unggah berkas (>%1 MB). %2"
+
+#: packages/filebrowser/src/model.ts:445
+msgid "Large file size warning"
+msgstr "Peringatan berkas ukuran besar"
+
+#: packages/filebrowser/src/model.ts:446
+msgid "The file size is %1 MB. Do you still want to upload it?"
+msgstr "Ukuran berkas %1 MB. Apakah Anda masih ingin menggungah?"
+
+#: packages/filebrowser/src/model.ts:452
+msgid "Upload"
+msgstr "Unggah"
+
+#: packages/filebrowser/src/upload.ts:112
+msgid "Upload Files"
+msgstr "Unggah Berkas"
+
+#: packages/filebrowser/src/upload.ts:52
+msgctxt "showErrorMessage"
+msgid "Upload Error"
+msgstr "Unggah Kesalahan"
+
+#: packages/filebrowser/src/uploadstatus.tsx:100
+msgid "Complete!"
+msgstr "Selesai!"
+
+#: packages/filebrowser/src/uploadstatus.tsx:41
+msgid "Uploading…"
+msgstr "Mengunggah…"
+
+#: packages/fileeditor-extension/src/commands.ts:1007 packages/fileeditor-extension/src/commands.ts:1022 packages/fileeditor-extension/src/commands.ts:966 packages/fileeditor-extension/src/commands.ts:992
+msgid "Text Editor"
+msgstr "Editor Teks"
+
+#: packages/fileeditor-extension/src/commands.ts:1025
+msgid "Increase Font Size"
+msgstr "Besarkan Ukuran Font"
+
+#: packages/fileeditor-extension/src/commands.ts:1028
+msgid "Decrease Font Size"
+msgstr "Kurangi Ukuran Font"
+
+#: packages/fileeditor-extension/src/commands.ts:1084
+msgid "Text Editor Indentation"
+msgstr ""
+
+#: packages/fileeditor-extension/src/commands.ts:1088 packages/fileeditor-extension/src/commands.ts:970 packages/fileeditor-extension/src/index.ts:105
+msgid "Indent with Tab"
+msgstr "Indent dengan Tab"
+
+#: packages/fileeditor-extension/src/commands.ts:1097 packages/fileeditor-extension/src/commands.ts:979 packages/fileeditor-extension/src/index.ts:112
+msgid "Spaces: %1"
+msgid_plural "Spaces: %1"
+msgstr[0] "Jarak: %1"
+
+#: packages/fileeditor-extension/src/commands.ts:1106
+msgid "Increase Text Editor Font Size"
+msgstr "Besarkan Ukuran Font Editor Teks"
+
+#: packages/fileeditor-extension/src/commands.ts:1110
+msgid "Decrease Text Editor Font Size"
+msgstr "Kurangi Ukuran Font Editor Teks"
+
+#: packages/fileeditor-extension/src/commands.ts:1200 packages/fileeditor-extension/src/commands.ts:446
+msgid "Create Console for Editor"
+msgstr "Buat Konsol untuk Editor"
+
+#: packages/fileeditor-extension/src/commands.ts:1218 packages/fileeditor-extension/src/commands.ts:517
+msgid "Run Code"
+msgstr "Menjalankan Kode"
+
+#: packages/fileeditor-extension/src/commands.ts:1219 packages/fileeditor-extension/src/commands.ts:562
+msgid "Run All Code"
+msgstr "Menjalankan Semua Kode"
+
+#: packages/fileeditor-extension/src/commands.ts:1221
+msgid "Restart Kernel and Run All Code"
+msgstr "Demulai Lagi Kernel dan Jalankan Semua Kode"
+
+#: packages/fileeditor-extension/src/commands.ts:293
+msgid "Line Numbers"
+msgstr "Nomor Baris"
+
+#: packages/fileeditor-extension/src/commands.ts:323
+msgid "Word Wrap"
+msgstr "Atur kata"
+
+#: packages/fileeditor-extension/src/commands.ts:374 packages/mainmenu-extension/src/index.ts:656
+msgid "Match Brackets"
+msgstr "Tandah Kurung Yang Sama"
+
+#: packages/fileeditor-extension/src/commands.ts:398
+msgid "Auto Close Brackets for Text Editor"
+msgstr "Tutup otomatik tandah kurung untuk editor teks"
+
+#: packages/fileeditor-extension/src/commands.ts:422
+msgid "Replace Selection in Editor"
+msgstr "Ganti Pilihan di Editor"
+
+#: packages/fileeditor-extension/src/commands.ts:594
+msgid "Show Markdown Preview"
+msgstr "Tampilkan Pratinjau Markdown"
+
+#: packages/fileeditor-extension/src/commands.ts:632 packages/mainmenu-extension/src/index.ts:256
+msgid "Undo"
+msgstr "Batalkan"
+
+#: packages/fileeditor-extension/src/commands.ts:670 packages/mainmenu-extension/src/index.ts:261
+msgid "Redo"
+msgstr "Mengulangi"
+
+#: packages/fileeditor-extension/src/commands.ts:812
+msgid "Select All"
+msgstr "Pilih Semua"
+
+#: packages/fileeditor-extension/src/commands.ts:871
+msgid "New Text File"
+msgstr "Berkas Teks Baru"
+
+#: packages/fileeditor-extension/src/commands.ts:871
+msgid "Text File"
+msgstr "Berkas Teks"
+
+#: packages/fileeditor-extension/src/commands.ts:872
+msgid "Create a new text file"
+msgstr "Buat berkas teks baru"
+
+#: packages/fileeditor-extension/src/commands.ts:894
+msgid "Create a new markdown file"
+msgstr "Buat berkas markdown baru"
+
+#: packages/fileeditor-extension/src/commands.ts:924 packages/fileeditor-extension/src/commands.ts:938 packages/launcher/src/index.tsx:160 packages/launcher/src/index.tsx:170 packages/launcher/src/index.tsx:443 packages/terminal-extension/src/index.ts:260
+msgid "Other"
+msgstr "Lainnya"
+
+#: packages/fileeditor/src/tabspacestatus.tsx:62
+msgid "Spaces"
+msgstr "Jarak"
+
+#: packages/fileeditor/src/tabspacestatus.tsx:63
+msgid "Tab Size"
+msgstr "Ukuran tab"
+
+#: packages/fileeditor/src/tabspacestatus.tsx:68
+msgid "Change Tab indentation…"
+msgstr ""
+
+#: packages/help-extension/src/index.tsx:101 packages/mainmenu-extension/src/index.ts:909
+msgid "Help"
+msgstr "Membantu"
+
+#: packages/help-extension/src/index.tsx:108
+msgid "JupyterLab Reference"
+msgstr "Referensi JupyterLab"
+
+#: packages/help-extension/src/index.tsx:112
+msgid "JupyterLab FAQ"
+msgstr "JupyterLab FAQ"
+
+#: packages/help-extension/src/index.tsx:117
+msgid "Jupyter Reference"
+msgstr "Referensi JupyterLab"
+
+#: packages/help-extension/src/index.tsx:121
+msgid "Markdown Reference"
+msgstr "Referensi Markdown"
+
+#: packages/help-extension/src/index.tsx:244
+msgid "About the %1 Kernel"
+msgstr "Tentang Kernel %1"
+
+#: packages/help-extension/src/index.tsx:264 packages/help-extension/src/index.tsx:355 packages/hub-extension/src/index.ts:164 packages/mainmenu-extension/src/index.ts:592
+msgid "Dismiss"
+msgstr "Hilangkan"
+
+#: packages/help-extension/src/index.tsx:295
+msgid "About %1"
+msgstr "Tentang %1"
+
+#: packages/help-extension/src/index.tsx:298
+msgid "Version %1"
+msgstr "Versi %1"
+
+#: packages/help-extension/src/index.tsx:326
+msgid "CONTRIBUTOR LIST"
+msgstr "DAFTAR KONTRIBUTOR"
+
+#: packages/help-extension/src/index.tsx:334
+msgid "ABOUT PROJECT JUPYTER"
+msgstr "TENTANG PROYEK JUPYTER"
+
+#: packages/help-extension/src/index.tsx:340
+msgid "© 2015-2020 Project Jupyter Contributors"
+msgstr "© 2015-2020 Project Jupyter Contributors"
+
+#: packages/help-extension/src/index.tsx:387
+msgid "Launch Classic Notebook"
+msgstr "Meluncurkan Catatan Klasik"
+
+#: packages/htmlviewer-extension/src/index.tsx:115
+msgid "Trust HTML File"
+msgstr "Percaya Berkas HTML"
+
+#: packages/htmlviewer-extension/src/index.tsx:64
+msgid "HTML File"
+msgstr "Berkas HTML"
+
+#: packages/htmlviewer-extension/src/index.tsx:73
+msgid "HTML Viewer"
+msgstr "Pemirsa HTML"
+
+#: packages/htmlviewer/src/index.tsx:108
+msgid "Rerender HTML Document"
+msgstr ""
+
+#: packages/htmlviewer/src/index.tsx:296
+msgid "Whether the HTML file is trusted.\n"
+"Trusting the file allows scripts to run in it,\n"
+"which may result in security risks.\n"
+"Only enable for files you trust."
+msgstr ""
+
+#: packages/htmlviewer/src/index.tsx:302
+msgid "Distrust HTML"
+msgstr "HTML yang tidak bisa dipercaya"
+
+#: packages/htmlviewer/src/index.tsx:303
+msgid "Trust HTML"
+msgstr "Percaya HTML"
+
+#: packages/hub-extension/src/index.ts:103
+msgid "Hub"
+msgstr "Hub"
+
+#: packages/hub-extension/src/index.ts:157
+msgid "Server unavailable or unreachable"
+msgstr "Server tidak tersedia atau tidak terjangkau"
+
+#: packages/hub-extension/src/index.ts:158
+msgid "Your server at %1 is not running.\n"
+"Would you like to restart it?"
+msgstr "Server Anda di %1 tidak jalan.\n"
+"Apakah Anda mau mulai lagi?"
+
+#: packages/hub-extension/src/index.ts:163
+msgid "Restart"
+msgstr "Dimulai Lagi"
+
+#: packages/hub-extension/src/index.ts:72
+msgid "Restart Server"
+msgstr "Memulai ulang server"
+
+#: packages/hub-extension/src/index.ts:73
+msgid "Request that the Hub restart this server"
+msgstr "Mintah pusat untuk mulai lagi server ini"
+
+#: packages/hub-extension/src/index.ts:80
+msgid "Hub Control Panel"
+msgstr "Pusat Panel Kontrol"
+
+#: packages/hub-extension/src/index.ts:81
+msgid "Open the Hub control panel in a new browser tab"
+msgstr "Buka pusat panel kontrol di tab peramban baru"
+
+#: packages/hub-extension/src/index.ts:88 packages/mainmenu-extension/src/index.ts:438
+msgid "Log Out"
+msgstr "Keluar"
+
+#: packages/hub-extension/src/index.ts:89
+msgid "Log out of the Hub"
+msgstr "Keluar dari Hub"
+
+#: packages/imageviewer-extension/src/index.ts:162
+msgid "Image Viewer"
+msgstr "Penampil gambar"
+
+#: packages/imageviewer-extension/src/index.ts:203
+msgid "Zoom In"
+msgstr "Perbesar"
+
+#: packages/imageviewer-extension/src/index.ts:209
+msgid "Zoom Out"
+msgstr "Perkecil"
+
+#: packages/imageviewer-extension/src/index.ts:215
+msgid "Reset Image"
+msgstr "Kembalikan Gambar"
+
+#: packages/imageviewer-extension/src/index.ts:221
+msgid "Rotate Clockwise"
+msgstr "Putar searah jarum jam"
+
+#: packages/imageviewer-extension/src/index.ts:227
+msgid "Rotate Counterclockwise"
+msgstr "Memutar searah jarum jam"
+
+#: packages/imageviewer-extension/src/index.ts:233
+msgid "Flip image horizontally"
+msgstr "Membalik gambar secara mendatar"
+
+#: packages/imageviewer-extension/src/index.ts:239
+msgid "Flip image vertically"
+msgstr "Membalik gambar secara tegak lurus"
+
+#: packages/imageviewer-extension/src/index.ts:245
+msgid "Invert Colors"
+msgstr "Balikkan Warna"
+
+#: packages/inspector-extension/src/index.ts:64
+msgid "Show Contextual Help"
+msgstr "Tampilkan Bantuan Kontekstual"
+
+#: packages/inspector-extension/src/index.ts:93
+msgid "Live updating code documentation from the active kernel"
+msgstr ""
+
+#: packages/inspector/src/inspector.ts:54
+msgid "Click on a function to see documentation."
+msgstr "Klik fungsi untuk melihat dokumentasi."
+
+#: packages/javascript-extension/src/index.ts:41
+msgid "Are you sure that you want to run arbitrary Javascript within your JupyterLab session?"
+msgstr ""
+
+#: packages/javascript-extension/src/index.ts:45 packages/mainmenu-extension/src/index.ts:726 packages/rendermime/src/renderers.ts:78
+msgid "Run"
+msgstr "Menjalankan"
+
+#: packages/json-extension/src/component.tsx:67
+msgid "Filter..."
+msgstr "Menyaring..."
+
+#: packages/launcher-extension/src/index.ts:101 packages/launcher-extension/src/index.ts:77
+msgid "Launcher"
+msgstr "Launcher"
+
+#: packages/launcher/src/index.tsx:417
+msgctxt "Error"
+msgid "Launcher Error"
+msgstr "Launcher Kesalahan"
+
+#: packages/logconsole-extension/src/index.tsx:164 packages/logconsole/src/widget.ts:399
+msgid "Log Console"
+msgstr "Konsol Log"
+
+#: packages/logconsole-extension/src/index.tsx:212
+msgid "Show Log Console"
+msgstr "Tampilkan Konsol Log"
+
+#: packages/logconsole-extension/src/index.tsx:232
+msgid "Add Checkpoint"
+msgstr "Terakhir Titik Permeriksaan"
+
+#: packages/logconsole-extension/src/index.tsx:241
+msgid "Clear Log"
+msgstr "Kosongkan Log"
+
+#: packages/logconsole-extension/src/index.tsx:257
+msgid "Set Log Level to %1"
+msgstr "Mengatur Tingkat Log ke %1"
+
+#: packages/logconsole-extension/src/index.tsx:394
+msgid "Log Level:"
+msgstr "Tingkat Log:"
+
+#: packages/logconsole-extension/src/index.tsx:402
+msgid "Log level"
+msgstr "Tingkat Log"
+
+#: packages/logconsole-extension/src/index.tsx:408
+msgid "Critical"
+msgstr "Kritis"
+
+#: packages/logconsole-extension/src/index.tsx:411
+msgid "Info"
+msgstr "Informasi"
+
+#: packages/logconsole-extension/src/index.tsx:412
+msgid "Debug"
+msgstr "Debug"
+
+#: packages/logconsole-extension/src/status.tsx:36
+msgid "%1 new messages, %2 log entries for %3"
+msgstr "%1 pesan baru, %2 entri log untuk %3"
+
+#: packages/logconsole-extension/src/status.tsx:43
+msgid "%1 log entries for %2"
+msgstr "%1 entri log untuk %2"
+
+#: packages/logconsole/src/widget.ts:400
+msgid "Log: %1"
+msgstr "Log: %1"
+
+#: packages/logconsole/src/widget.ts:407
+msgid "No source selected."
+msgstr "Tidak ada sumber yang dipilih."
+
+#: packages/logconsole/src/widget.ts:412
+msgid "No log messages."
+msgstr "Tidak ada pesan log."
+
+#: packages/mainmenu-extension/src/index.ts:160
+msgid "Tabs"
+msgstr "Tabs"
+
+#: packages/mainmenu-extension/src/index.ts:174
+msgid "Open Edit Menu"
+msgstr "Buka Menu Edit"
+
+#: packages/mainmenu-extension/src/index.ts:178
+msgid "Open File Menu"
+msgstr "Buka Menu Berkas"
+
+#: packages/mainmenu-extension/src/index.ts:182
+msgid "Open Kernel Menu"
+msgstr "Buka Menu Kernel"
+
+#: packages/mainmenu-extension/src/index.ts:186
+msgid "Open Run Menu"
+msgstr "Buka Menu Menjalankan"
+
+#: packages/mainmenu-extension/src/index.ts:190
+msgid "Open View Menu"
+msgstr "Buka Menu Tampilan"
+
+#: packages/mainmenu-extension/src/index.ts:194
+msgid "Open Settings Menu"
+msgstr "Buka menu pengaturan"
+
+#: packages/mainmenu-extension/src/index.ts:198
+msgid "Open Tabs Menu"
+msgstr "Buka Menu Tabs"
+
+#: packages/mainmenu-extension/src/index.ts:202
+msgid "Open Help Menu"
+msgstr "Buka menu bantuan"
+
+#: packages/mainmenu-extension/src/index.ts:206
+msgid "Open First Menu"
+msgstr "Buka Menu Pertama"
+
+#: packages/mainmenu-extension/src/index.ts:228
+msgid "Kernel Operations"
+msgstr "Operasi Kernel"
+
+#: packages/mainmenu-extension/src/index.ts:252
+msgid "Edit"
+msgstr "Edit"
+
+#: packages/mainmenu-extension/src/index.ts:278
+msgid "Clear"
+msgstr "Kosongkan"
+
+#: packages/mainmenu-extension/src/index.ts:294
+msgid "Clear All"
+msgstr "Kosongkan Semua"
+
+#: packages/mainmenu-extension/src/index.ts:313
+msgid "Go to Line…"
+msgstr "Pergi ke baris…"
+
+#: packages/mainmenu-extension/src/index.ts:330
+msgid "File"
+msgstr "Berkas"
+
+#: packages/mainmenu-extension/src/index.ts:331
+msgid "New"
+msgstr "Baru"
+
+#: packages/mainmenu-extension/src/index.ts:344
+msgid "Close and Shutdown"
+msgstr "Tutup dan Matikan"
+
+#: packages/mainmenu-extension/src/index.ts:374
+msgid "New Console for Activity"
+msgstr "Konsol Baru buat Aktivitas"
+
+#: packages/mainmenu-extension/src/index.ts:385 packages/mainmenu-extension/src/index.ts:393 packages/running-extension/src/kernels.ts:45 packages/running/src/index.tsx:148 packages/terminal-extension/src/index.ts:297
+msgid "Shut Down"
+msgstr "Matikan"
+
+#: packages/mainmenu-extension/src/index.ts:386
+msgid "Shut down JupyterLab"
+msgstr "Matikan JupyterLab"
+
+#: packages/mainmenu-extension/src/index.ts:389
+msgid "Shutdown confirmation"
+msgstr "Konfirmasi matikan"
+
+#: packages/mainmenu-extension/src/index.ts:390
+msgid "Please confirm you want to shut down JupyterLab."
+msgstr "Silakan pastikan akan dimatikan JupyterLab."
+
+#: packages/mainmenu-extension/src/index.ts:409
+msgid "You have shut down the Jupyter server. You can now close this tab."
+msgstr "Anda sudah matikan server Jupyter. Anda bisa menutup tab ini."
+
+#: packages/mainmenu-extension/src/index.ts:413
+msgid "To use JupyterLab again, you will need to relaunch it."
+msgstr "Untuk menggunakan JupyterLab, Anda harus meluncurkan lagi."
+
+#: packages/mainmenu-extension/src/index.ts:420
+msgid "Server stopped"
+msgstr "Server berhenti"
+
+#: packages/mainmenu-extension/src/index.ts:439
+msgid "Log out of JupyterLab"
+msgstr "Keluar dari JupyterLab"
+
+#: packages/mainmenu-extension/src/index.ts:513
+msgid "Kernel"
+msgstr "Kernel"
+
+#: packages/mainmenu-extension/src/index.ts:526
+msgid "Reconnect to Kernel"
+msgstr "Hubungkan kembali ke kernel"
+
+#: packages/mainmenu-extension/src/index.ts:548
+msgid "Restart Kernel and Clear…"
+msgstr "Dimulai Lagi Kernel dan Kosongkan…"
+
+#: packages/mainmenu-extension/src/index.ts:583
+msgid "Shut Down All Kernels…"
+msgstr "Matikan Semua Kernel…"
+
+#: packages/mainmenu-extension/src/index.ts:589
+msgid "Shut Down All?"
+msgstr "Matikan Semua?"
+
+#: packages/mainmenu-extension/src/index.ts:590
+msgid "Shut down all kernels?"
+msgstr "Matikan semua kernel?"
+
+#: packages/mainmenu-extension/src/index.ts:593 packages/running-extension/src/kernels.ts:46 packages/running/src/index.tsx:228 packages/terminal-extension/src/index.ts:298
+msgid "Shut Down All"
+msgstr "Matikan Semua"
+
+#: packages/mainmenu-extension/src/index.ts:634
+msgid "View"
+msgstr "Lihat"
+
+#: packages/mainmenu-extension/src/index.ts:637
+msgid "Show Line Numbers"
+msgstr "Tampilkan nomor baris"
+
+#: packages/mainmenu-extension/src/index.ts:675
+msgid "Wrap Words"
+msgstr "Atur kata"
+
+#: packages/mainmenu-extension/src/index.ts:736
+msgid "Run Selected"
+msgstr "Jalankan pilihan"
+
+#: packages/mainmenu-extension/src/index.ts:744
+msgid "Run All"
+msgstr "Menjalan Semua"
+
+#: packages/mainmenu-extension/src/index.ts:764
+msgid "Restart Kernel and Run All"
+msgstr "Demulai Lagi Kernel dan Jalankan Semua"
+
+#: packages/mainmenu-extension/src/index.ts:805 packages/settingeditor-extension/src/index.ts:145 packages/settingeditor-extension/src/index.ts:155
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: packages/mainmenu-extension/src/index.ts:855
+msgid "Activate Previously Used Tab"
+msgstr "Aktifkan tab bar sebelumnya"
+
+#: packages/markdownviewer-extension/src/index.ts:146
+msgid "Markdown Preview"
+msgstr "Pratinjau Markdown"
+
+#: packages/markdownviewer-extension/src/index.ts:181
+msgid "Show Markdown Editor"
+msgstr "Tamplikan Editor Markdown"
+
+#: packages/notebook-extension/src/index.ts:1011
+msgid "Run Selected Cells and Insert Below"
+msgstr "Jalankan sel yang dipilih dan masukkan di bawah"
+
+#: packages/notebook-extension/src/index.ts:1024
+msgid "Run Selected Text or Current Line in Console"
+msgstr "Jalankan teks yang dipilih atau baris saat ini di konsol"
+
+#: packages/notebook-extension/src/index.ts:1144 packages/notebook-extension/src/index.ts:2294
+msgid "Run All Cells"
+msgstr "Menjalakan Semua Sel"
+
+#: packages/notebook-extension/src/index.ts:1157
+msgid "Run All Above Selected Cell"
+msgstr "Jalankan semua di atas sel yang dipilih"
+
+#: packages/notebook-extension/src/index.ts:1177
+msgid "Run Selected Cell and All Below"
+msgstr "Jalankan sel yang dipilih dan semua di bawah"
+
+#: packages/notebook-extension/src/index.ts:1198
+msgid "Render All Markdown Cells"
+msgstr "Gunakan Semua Sel Markdown"
+
+#: packages/notebook-extension/src/index.ts:1223
+msgid "Close and Shut Down"
+msgstr "Tutup dan Matikan"
+
+#: packages/notebook-extension/src/index.ts:1234
+msgid "Shut down the notebook?"
+msgstr "Matikan notebook?"
+
+#: packages/notebook-extension/src/index.ts:1248
+msgid "Trust Notebook"
+msgstr "Percaya Catatan"
+
+#: packages/notebook-extension/src/index.ts:1262
+msgid "Export Notebook: %1"
+msgstr "Ekspor Notebook: %1"
+
+#: packages/notebook-extension/src/index.ts:1297 packages/notebook-extension/src/index.ts:2228
+msgid "Restart Kernel and Clear All Outputs…"
+msgstr "Demulai Lagi Kernel dan Hapus Semua Hasil…"
+
+#: packages/notebook-extension/src/index.ts:1312
+msgid "Restart Kernel and Run up to Selected Cell…"
+msgstr "Dimulai lagi kernel dan jalankan ke sel pilihan…"
+
+#: packages/notebook-extension/src/index.ts:1339 packages/notebook-extension/src/index.ts:2296
+msgid "Restart Kernel and Run All Cells…"
+msgstr "Demulai Lagi Kernel dan Jalankan Semua Sel…"
+
+#: packages/notebook-extension/src/index.ts:1359 packages/notebook-extension/src/index.ts:2132
+msgid "Clear All Outputs"
+msgstr "Hapus Semua Hasil"
+
+#: packages/notebook-extension/src/index.ts:1370
+msgid "Clear Outputs"
+msgstr "Hapus Hasil"
+
+#: packages/notebook-extension/src/index.ts:1398
+msgid "Change to Code Cell Type"
+msgstr "Ganti ke Jenis Sel Kode"
+
+#: packages/notebook-extension/src/index.ts:1409
+msgid "Change to Markdown Cell Type"
+msgstr "Ganti ke Jenis Sel Markdown"
+
+#: packages/notebook-extension/src/index.ts:1420
+msgid "Change to Raw Cell Type"
+msgstr "Ganti ke Jenis Sel Asli"
+
+#: packages/notebook-extension/src/index.ts:1431
+msgid "Cut Cells"
+msgstr "Potong Sel"
+
+#: packages/notebook-extension/src/index.ts:1442
+msgid "Copy Cells"
+msgstr "Menyalin Sel"
+
+#: packages/notebook-extension/src/index.ts:1453
+msgid "Paste Cells Below"
+msgstr "Tempel Sel di Bawah"
+
+#: packages/notebook-extension/src/index.ts:1464
+msgid "Paste Cells Above"
+msgstr "Tempel Sel di Atas"
+
+#: packages/notebook-extension/src/index.ts:1475
+msgid "Paste Cells and Replace"
+msgstr "Tempel Sel dan Ganti"
+
+#: packages/notebook-extension/src/index.ts:1486
+msgid "Delete Cells"
+msgstr "Hapus Sel"
+
+#: packages/notebook-extension/src/index.ts:1497
+msgid "Split Cell"
+msgstr "Dipisah Sel"
+
+#: packages/notebook-extension/src/index.ts:1508
+msgid "Merge Selected Cells"
+msgstr "Menggabungkan Sel yang Dipilih"
+
+#: packages/notebook-extension/src/index.ts:1519
+msgid "Insert Cell Above"
+msgstr "Masukkan sel di atas"
+
+#: packages/notebook-extension/src/index.ts:1530
+msgid "Insert Cell Below"
+msgstr "Masukkan sel di bawah"
+
+#: packages/notebook-extension/src/index.ts:1541
+msgid "Select Cell Above"
+msgstr "Pilih sel di atas"
+
+#: packages/notebook-extension/src/index.ts:1552
+msgid "Select Cell Below"
+msgstr "Pilih sel di bawah"
+
+#: packages/notebook-extension/src/index.ts:1563
+msgid "Extend Selection Above"
+msgstr "Memperluas Pilihan di Atas"
+
+#: packages/notebook-extension/src/index.ts:1574
+msgid "Extend Selection to Top"
+msgstr "Memperluas Pilihan ke Atas"
+
+#: packages/notebook-extension/src/index.ts:1585
+msgid "Extend Selection Below"
+msgstr "Memperluas Pilihan di Bawah"
+
+#: packages/notebook-extension/src/index.ts:1596
+msgid "Extend Selection to Bottom"
+msgstr "Memperluas Pilihan ke Bawah"
+
+#: packages/notebook-extension/src/index.ts:1607
+msgid "Select All Cells"
+msgstr "Pilih semua sel"
+
+#: packages/notebook-extension/src/index.ts:1618
+msgid "Deselect All Cells"
+msgstr "Diseleksi semua sel"
+
+#: packages/notebook-extension/src/index.ts:1629
+msgid "Move Cells Up"
+msgstr "Pindah sel ke atas"
+
+#: packages/notebook-extension/src/index.ts:1640
+msgid "Move Cells Down"
+msgstr "Pindah sel ke bawah"
+
+#: packages/notebook-extension/src/index.ts:1651
+msgid "Toggle All Line Numbers"
+msgstr "Alihkan Semua Nomor Baris"
+
+#: packages/notebook-extension/src/index.ts:1662
+msgid "Enter Command Mode"
+msgstr "Masuk ke Mode Perintah"
+
+#: packages/notebook-extension/src/index.ts:1673
+msgid "Enter Edit Mode"
+msgstr "Masukkan Mode Perubahan"
+
+#: packages/notebook-extension/src/index.ts:1684
+msgid "Undo Cell Operation"
+msgstr "Batalkan Operasi Sel"
+
+#: packages/notebook-extension/src/index.ts:1695
+msgid "Redo Cell Operation"
+msgstr "Mengulangi Operasi Sel"
+
+#: packages/notebook-extension/src/index.ts:1720
+msgid "Reconnect To Kernel"
+msgstr "Hubungkan kembali ke kernel"
+
+#: packages/notebook-extension/src/index.ts:1737
+msgid "Create New View for Output"
+msgstr "Buat tampilan baru untuk hasil"
+
+#: packages/notebook-extension/src/index.ts:1791 packages/notebook-extension/src/index.ts:2249
+msgid "New Console for Notebook"
+msgstr "Konsol Baru buat Notebook"
+
+#: packages/notebook-extension/src/index.ts:1808
+msgid "Change to Heading 1"
+msgstr "Menganti Judul 1"
+
+#: packages/notebook-extension/src/index.ts:1819
+msgid "Change to Heading 2"
+msgstr "Menganti Judul 2"
+
+#: packages/notebook-extension/src/index.ts:1830
+msgid "Change to Heading 3"
+msgstr "Menganti Judul 3"
+
+#: packages/notebook-extension/src/index.ts:1841
+msgid "Change to Heading 4"
+msgstr "Menganti Judul 4"
+
+#: packages/notebook-extension/src/index.ts:1852
+msgid "Change to Heading 5"
+msgstr "Menganti Judul 5"
+
+#: packages/notebook-extension/src/index.ts:1863
+msgid "Change to Heading 6"
+msgstr "Menganti Judul 6"
+
+#: packages/notebook-extension/src/index.ts:1874
+msgid "Collapse Selected Code"
+msgstr "Kumpulkan kode yang di pilih"
+
+#: packages/notebook-extension/src/index.ts:1885
+msgid "Expand Selected Code"
+msgstr "Memperluas kode yang di pilih"
+
+#: packages/notebook-extension/src/index.ts:1896
+msgid "Collapse All Code"
+msgstr "Kumpulkan semua kode"
+
+#: packages/notebook-extension/src/index.ts:1907
+msgid "Expand All Code"
+msgstr "Memperluas semua kode"
+
+#: packages/notebook-extension/src/index.ts:1918
+msgid "Collapse Selected Outputs"
+msgstr "Kumpulkan hasil yang di pilih"
+
+#: packages/notebook-extension/src/index.ts:1929
+msgid "Expand Selected Outputs"
+msgstr "Memperluas hasil yang di pilih"
+
+#: packages/notebook-extension/src/index.ts:1940
+msgid "Collapse All Outputs"
+msgstr "Kumpulkan Semua Hasil"
+
+#: packages/notebook-extension/src/index.ts:1951
+msgid "Expand All Outputs"
+msgstr "Memperluas Semua Hasil"
+
+#: packages/notebook-extension/src/index.ts:1962
+msgid "Enable Scrolling for Outputs"
+msgstr "Aktifkan Gulir untuk Hasil"
+
+#: packages/notebook-extension/src/index.ts:1973
+msgid "Disable Scrolling for Outputs"
+msgstr "Aktifkan Gulir untuk Hasil"
+
+#: packages/notebook-extension/src/index.ts:1984
+msgid "Select current running or last run cell"
+msgstr "Pilih sel yang jalan saat ini atau terakhir"
+
+#: packages/notebook-extension/src/index.ts:1995
+msgid "Replace Selection in Notebook Cell"
+msgstr "Ganti Pilihan di Sel Catatan"
+
+#: packages/notebook-extension/src/index.ts:2016 packages/notebook-extension/src/index.ts:2194
+msgid "Notebook Operations"
+msgstr "Operasi Notebook"
+
+#: packages/notebook-extension/src/index.ts:2049
+msgid "Notebook Cell Operations"
+msgstr "Operasi Sel Notebook"
+
+#: packages/notebook-extension/src/index.ts:2130
+msgid "Clear Output"
+msgstr "Hapus Hasil"
+
+#: packages/notebook-extension/src/index.ts:2149
+msgid "Close and Shutdown Notebook"
+msgstr "Tutup dan Matikan Notebook"
+
+#: packages/notebook-extension/src/index.ts:2153
+msgid "Shut down the Notebook?"
+msgstr "Matikan Notebook?"
+
+#: packages/notebook-extension/src/index.ts:2168
+msgid "Export Notebook As…"
+msgstr "Pindahkan Catatan Sebagai…"
+
+#: packages/notebook-extension/src/index.ts:2293 packages/notebook-extension/src/index.ts:985
+msgid "Run Selected Cells"
+msgstr "Jalankan sel yang dipilih"
+
+#: packages/notebook-extension/src/index.ts:2436
+msgid "For Notebook: %1"
+msgstr "Untuk Notebook: %1"
+
+#: packages/notebook-extension/src/index.ts:2437
+msgid "For Notebook:"
+msgstr "Untuk Notebook:"
+
+#: packages/notebook-extension/src/index.ts:2522
+msgid "HTML"
+msgstr "HTML"
+
+#: packages/notebook-extension/src/index.ts:2523
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: packages/notebook-extension/src/index.ts:2524 packages/notebook/src/default-toolbar.tsx:344
+msgid "Markdown"
+msgstr "Markdown"
+
+#: packages/notebook-extension/src/index.ts:2525 packages/notebook-extension/src/index.ts:472
+msgid "PDF"
+msgstr "PDF"
+
+#: packages/notebook-extension/src/index.ts:2526
+msgid "ReStructured Text"
+msgstr ""
+
+#: packages/notebook-extension/src/index.ts:2527
+msgid "Executable Script"
+msgstr "Skrip yang dapat dieksekusi"
+
+#: packages/notebook-extension/src/index.ts:2528
+msgid "Reveal.js Slides"
+msgstr "Reveal.js Slide"
+
+#: packages/notebook-extension/src/index.ts:473
+msgid "Slides"
+msgstr "Slide"
+
+#: packages/notebook-extension/src/index.ts:474
+msgid "Script"
+msgstr "Naskah"
+
+#: packages/notebook-extension/src/index.ts:476
+msgid "Custom"
+msgstr "Personalisasi"
+
+#: packages/notebook-extension/src/index.ts:498
+msgid "Notebook Tools"
+msgstr "Alat-alat Notebook"
+
+#: packages/notebook-extension/src/index.ts:742
+msgid "New Notebook"
+msgstr "Notebook Baru"
+
+#: packages/notebook-extension/src/index.ts:746
+msgid "Create a new notebook"
+msgstr "Buat catatan baru"
+
+#: packages/notebook-extension/src/index.ts:998
+msgid "Run Selected Cells and Don't Advance"
+msgstr "Jalankan sel yang dipilih dan Jangan Maju"
+
+#: packages/notebook/src/actions.tsx:1387
+msgid "A trusted Jupyter notebook may execute hidden malicious code when you openit."
+msgstr ""
+
+#: packages/notebook/src/actions.tsx:1391
+msgid "Selecting trust will re-render this notebook in a trusted state."
+msgstr ""
+
+#: packages/notebook/src/actions.tsx:1395
+msgid "For more information, see the <a href=\"https://jupyter-server.readthedocs.io/en/stable/operators/security.html\">%1</a>"
+msgstr ""
+
+#: packages/notebook/src/actions.tsx:1397
+msgid "Jupyter security documentation"
+msgstr "Dokumentasi rehasia Jupyter"
+
+#: packages/notebook/src/actions.tsx:1404
+msgid "Notebook is already trusted"
+msgstr "Catatan sudah percaya"
+
+#: packages/notebook/src/actions.tsx:1411
+msgid "Trust this notebook?"
+msgstr "Bisa percaya catatan ini?"
+
+#: packages/notebook/src/actions.tsx:1599
+msgid "Kernel Terminating"
+msgstr "Penghentian Kernel"
+
+#: packages/notebook/src/actions.tsx:1600
+msgid "The kernel for %1 appears to be terminating. You can not run any cell for now."
+msgstr "Kernel untuk %1 sepertinya berhenti. Anda tidak bisa menjalankan segala sel sekarang."
+
+#: packages/notebook/src/default-toolbar.tsx:116
+msgid "Insert a cell below"
+msgstr "Masukkan sel di bawah"
+
+#: packages/notebook/src/default-toolbar.tsx:133
+msgid "Cut the selected cells"
+msgstr "Hilangkan sel yang dipilih"
+
+#: packages/notebook/src/default-toolbar.tsx:150
+msgid "Copy the selected cells"
+msgstr "Menyalin sel yang dipilih"
+
+#: packages/notebook/src/default-toolbar.tsx:167
+msgid "Paste cells from the clipboard"
+msgstr "Tempel Sel dari clipboard"
+
+#: packages/notebook/src/default-toolbar.tsx:184
+msgid "Run the selected cells and advance"
+msgstr "Jalankan sel yang dipilih dan maju"
+
+#: packages/notebook/src/default-toolbar.tsx:208
+msgid "Restart the kernel, then re-run the whole notebook"
+msgstr "Dimuali lagi kernel, kemudian jalankan semua catatan"
+
+#: packages/notebook/src/default-toolbar.tsx:340
+msgid "Cell type"
+msgstr "Jenis sel"
+
+#: packages/notebook/src/default-toolbar.tsx:343
+msgid "Code"
+msgstr "Kode"
+
+#: packages/notebook/src/default-toolbar.tsx:345
+msgid "Raw"
+msgstr "Mentah"
+
+#: packages/notebook/src/default-toolbar.tsx:85
+msgid "Save the notebook contents and create checkpoint"
+msgstr "Menyimpan isi catatan dan buat titik permeriksaan"
+
+#: packages/notebook/src/model.ts:272
+msgid "This notebook has been converted from an older notebook format (v%1)\n"
+"to the current notebook format (v%2).\n"
+"The next time you save this notebook, the current notebook format (vthis._nbformat) will be used.\n"
+"'Older versions of Jupyter may not be able to read the new format.' To preserve the original format version,\n"
+"close the notebook without saving it."
+msgstr ""
+
+#: packages/notebook/src/model.ts:282
+msgid "This notebook has been converted from an newer notebook format (v%1)\n"
+"to the current notebook format (v%2).\n"
+"The next time you save this notebook, the current notebook format (v%2) will be used.\n"
+"Some features of the original notebook may not be available.' To preserve the original format version,\n"
+"close the notebook without saving it."
+msgstr ""
+
+#: packages/notebook/src/model.ts:293
+msgid "Notebook converted"
+msgstr "Catatan Diubah"
+
+#: packages/notebook/src/modestatus.tsx:29
+msgid "Mode: %1"
+msgstr "Mode: %1"
+
+#: packages/notebook/src/modestatus.tsx:74
+msgid "Notebook is in %1 mode"
+msgstr "Catatan di mode %1"
+
+#: packages/notebook/src/notebooktools.ts:587
+msgid "Notebook Metadata"
+msgstr "Metadata catatan"
+
+#: packages/notebook/src/notebooktools.ts:620
+msgid "Cell Metadata"
+msgstr "Metadata Sel"
+
+#: packages/notebook/src/notebooktools.ts:884
+msgid "Slide Type"
+msgstr "Jenis Slide"
+
+#: packages/notebook/src/notebooktools.ts:887
+msgid "Slide"
+msgstr "Slide"
+
+#: packages/notebook/src/notebooktools.ts:888
+msgid "Sub-Slide"
+msgstr "Sub-Slide"
+
+#: packages/notebook/src/notebooktools.ts:889
+msgid "Fragment"
+msgstr "Fragmen"
+
+#: packages/notebook/src/notebooktools.ts:89
+msgid "Advanced Tools"
+msgstr "Perangkat lanjutan"
+
+#: packages/notebook/src/notebooktools.ts:890
+msgid "Skip"
+msgstr "Melewatkan"
+
+#: packages/notebook/src/notebooktools.ts:891
+msgid "Notes"
+msgstr "Catatan"
+
+#: packages/notebook/src/notebooktools.ts:929
+msgid "Raw NBConvert Format"
+msgstr "Format NBConvert Asli"
+
+#: packages/notebook/src/panel.ts:203
+msgid "Kernel Restarting"
+msgstr "Kernel Mulai Lagi"
+
+#: packages/notebook/src/panel.ts:204
+msgid "The kernel for %1 appears to have died. It will restart automatically."
+msgstr "Kernel until %1 serpertinya mati. Akan mulai lagi secara otomatis."
+
+#: packages/notebook/src/truststatus.tsx:26
+msgid "Notebook trusted: %1 of %2 cells trusted."
+msgstr "Catatan tidak bisa dipercaya: %1 dari %2 sel bisa dipercaya."
+
+#: packages/notebook/src/truststatus.tsx:35
+msgid "Active cell trusted: %1 of %2 cells trusted."
+msgstr "Sel yang aktif bisa dipercaya: %1 dari %2 sel bisa dipercaya."
+
+#: packages/notebook/src/truststatus.tsx:44
+msgid "Notebook not trusted: %1 of %2 cells trusted."
+msgstr "Catatan tidak bisa dipercaya: %1 dari %2 sel bisa dipercaya."
+
+#: packages/property-inspector/src/index.ts:176
+msgid "No properties to inspect."
+msgstr "Tidak ada properti untuk diperiksa."
+
+#: packages/rendermime-extension/src/index.ts:58
+msgid "Handle Local Link"
+msgstr ""
+
+#: packages/rendermime/src/renderers.ts:74
+msgid "This HTML output contains inline scripts. Are you sure that you want to run arbitrary Javascript within your JupyterLab session?"
+msgstr ""
+
+#: packages/rendermime/src/widgets.ts:421
+msgid "JavaScript output is disabled in JupyterLab"
+msgstr "Hasil Javascript nonaktifkan di JupyterLab"
+
+#: packages/running-extension/src/index.ts:59
+msgid "Running Terminals and Kernels"
+msgstr "Terminal dan Kernel yang Jalan"
+
+#: packages/running-extension/src/kernels.ts:36
+msgid "Kernels"
+msgstr "Kernels"
+
+#: packages/running-extension/src/kernels.ts:47
+msgid "Are you sure you want to permanently shut down all running kernels?"
+msgstr "Apakah Anda yakin ingin matikan semua kernel yang jalan secara permanen?"
+
+#: packages/running-extension/src/kernels.ts:86
+msgid "Path: %1\n"
+"Kernel: %2"
+msgstr "Jalur: %1\n"
+"Kernel: %2"
+
+#: packages/running-extension/src/opentabs.ts:78
+msgid "Open Tabs"
+msgstr "Tab Terbuka"
+
+#: packages/running-extension/src/opentabs.ts:94
+msgid "Close"
+msgstr "Tutup"
+
+#: packages/running-extension/src/opentabs.ts:95
+msgid "Close All"
+msgstr "Tutup Semua"
+
+#: packages/running-extension/src/opentabs.ts:96
+msgid "Are you sure you want to close all open tabs?"
+msgstr "Apakah anda yakin ingin menutup semua tab yang terbuka?"
+
+#: packages/running/src/index.tsx:294
+msgid "Refresh List"
+msgstr "Segarkan daftar"
+
+#: packages/settingeditor-extension/src/index.ts:151
+msgid "Advanced Settings Editor"
+msgstr "Editor pengaturan lanjutan"
+
+#: packages/settingeditor-extension/src/index.ts:165
+msgid "Revert User Settings"
+msgstr "Kembali pengaturan pegguna"
+
+#: packages/settingeditor-extension/src/index.ts:172
+msgid "Save User Settings"
+msgstr "Menyimpan pengaturan pegguna"
+
+#: packages/settingeditor/src/inspector.ts:40
+msgid "Any errors will be listed here"
+msgstr "Kesalahan akan didaftar di sini"
+
+#: packages/settingeditor/src/inspector.ts:97
+msgid "No errors found"
+msgstr "Kesalahan tidak ditemukan"
+
+#: packages/settingeditor/src/plugineditor.ts:145
+msgid "You have unsaved changes."
+msgstr "Anda ada perubahan yang belum di simpan."
+
+#: packages/settingeditor/src/plugineditor.ts:146
+msgid "Do you want to leave without saving?"
+msgstr "Apakah Anda akan keluar sebelum tanpa menyimpan?"
+
+#: packages/settingeditor/src/plugineditor.ts:269
+msgid "Your changes were not saved."
+msgstr "Perubahan Anda tidak di simpan."
+
+#: packages/settingeditor/src/raweditor.ts:387
+msgid "System Defaults"
+msgstr "Sistem Bawaan"
+
+#: packages/settingeditor/src/raweditor.ts:428
+msgid "User Preferences"
+msgstr "Preferensi Pengguna"
+
+#: packages/settingeditor/src/settingeditor.tsx:464
+msgid "Select a plugin from the list to view and edit its preferences."
+msgstr ""
+
+#: packages/shortcuts-extension/src/index.ts:86
+msgid "Note: To disable a system default shortcut,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key, for example:\n"
+"{\n"
+"    \"command\": \"application:activate-next-tab\",\n"
+"    \"keys\": [\n"
+"        \"Ctrl Shift ]\"\n"
+"    ],\n"
+"    \"selector\": \"body\",\n"
+"    \"disabled\": true\n"
+"}\n\n"
+"List of commands followed by keyboard shortcuts:\n"
+"%1\n\n"
+"List of keyboard shortcuts:"
+msgstr ""
+
+#: packages/statusbar-extension/src/index.ts:377
+msgid "Simple Interface (%1)"
+msgstr "Tampilan Sederhana (%1)"
+
+#: packages/statusbar-extension/src/index.ts:387
+msgid "Simple"
+msgstr "Sederhana"
+
+#: packages/statusbar-extension/src/index.ts:93
+msgid "Show Status Bar"
+msgstr "Tampilkan Status Bar"
+
+#: packages/statusbar/src/defaults/kernelStatus.tsx:128
+msgid "No Kernel!"
+msgstr "No Kernel!"
+
+#: packages/statusbar/src/defaults/kernelStatus.tsx:38
+msgid "Change kernel for %1"
+msgstr "Ganti kernel untuk %1"
+
+#: packages/statusbar/src/defaults/lineCol.tsx:140
+msgid "Go to line number between 1 and %1"
+msgstr "Pergi ke baris antara nomor 1 dan %1"
+
+#: packages/statusbar/src/defaults/lineCol.tsx:238
+msgid "Ln %1, Col %2"
+msgstr "Ln %1, Col %2"
+
+#: packages/statusbar/src/defaults/lineCol.tsx:239
+msgid "Go to line number…"
+msgstr "Pergi ke nomor baris…"
+
+#: packages/statusbar/src/defaults/runningSessions.tsx:116
+msgid "%1 Terminals, %2 Kernel sessions"
+msgstr "%1 Terminal, %2 Sesi Kernel"
+
+#: packages/terminal-extension/src/index.ts:179
+msgid "Terminal Theme"
+msgstr "Tema Terminal"
+
+#: packages/terminal-extension/src/index.ts:184 packages/terminal-extension/src/index.ts:240
+msgid "Inherit"
+msgstr "Mewarisi"
+
+#: packages/terminal-extension/src/index.ts:192 packages/terminal-extension/src/index.ts:247
+msgid "Light"
+msgstr "Ringan"
+
+#: packages/terminal-extension/src/index.ts:198 packages/terminal-extension/src/index.ts:252
+msgid "Dark"
+msgstr "Gelap"
+
+#: packages/terminal-extension/src/index.ts:217
+msgid "Shutdown Terminal"
+msgstr "Matikan Terminal"
+
+#: packages/terminal-extension/src/index.ts:291
+msgid "Terminals"
+msgstr "Terminals"
+
+#: packages/terminal-extension/src/index.ts:299
+msgid "Are you sure you want to permanently shut down all running terminals?"
+msgstr "Apakah Anda yakin ingin matikan semua terminal yang jalan secara permanen?"
+
+#: packages/terminal-extension/src/index.ts:341
+msgid "New Terminal"
+msgstr "Baru Terminal"
+
+#: packages/terminal-extension/src/index.ts:341 packages/terminal-extension/src/index.ts:91 packages/terminal/src/widget.ts:76
+msgid "Terminal"
+msgstr "Terminal"
+
+#: packages/terminal-extension/src/index.ts:342
+msgid "Start a new terminal session"
+msgstr "Mulai sesi terminal baru"
+
+#: packages/terminal-extension/src/index.ts:391
+msgid "Refresh Terminal"
+msgstr "Segarkan Terminal"
+
+#: packages/terminal-extension/src/index.ts:392
+msgid "Refresh the current terminal session"
+msgstr "Segarkan sesi terminal saat ini"
+
+#: packages/terminal-extension/src/index.ts:412
+msgid "Increase Terminal Font Size"
+msgstr "Besarkan Ukuran Font Terminal"
+
+#: packages/terminal-extension/src/index.ts:426
+msgid "Decrease Terminal Font Size"
+msgstr "Kurangi Ukuran Font Terminal"
+
+#: packages/terminal-extension/src/index.ts:443
+msgid "Use Terminal Theme: %1"
+msgstr "Gunakan Tema Terminal: %1"
+
+#: packages/terminal-extension/src/index.ts:446
+msgid "Set the terminal theme"
+msgstr "Mengatur tema terminal"
+
+#: packages/terminal/src/widget.ts:97
+msgid "Terminal %1"
+msgstr "Terminal %1"
+
+#: packages/theme-dark-extension/src/index.ts:32
+msgid "JupyterLab Dark"
+msgstr "JupyterLab Gelap"
+
+#: packages/theme-light-extension/src/index.ts:32
+msgid "JupyterLab Light"
+msgstr "JupyterLab Terang"
+
+#: packages/toc-extension/src/index.ts:67 packages/toc/src/toc.tsx:113
+msgid "Table of Contents"
+msgstr "Daftar Isi"
+
+#: packages/toc/src/generators/markdown/toolbar_generator.tsx:64 packages/toc/src/generators/markdown/toolbar_generator.tsx:65 packages/toc/src/generators/notebook/toolbar_generator.tsx:212 packages/toc/src/generators/notebook/toolbar_generator.tsx:213
+msgid "Toggle Auto-Numbering"
+msgstr ""
+
+#: packages/toc/src/generators/notebook/tagstool/index.tsx:186
+msgid "No Tags Available"
+msgstr "Tidak ada tag tersedia"
+
+#: packages/toc/src/generators/notebook/tagstool/index.tsx:193
+msgid "Clear Filters"
+msgstr "Hapus Penyaring"
+
+#: packages/toc/src/generators/notebook/toolbar_generator.tsx:180 packages/toc/src/generators/notebook/toolbar_generator.tsx:181
+msgid "Toggle Code Cells"
+msgstr "Alihkan Sel Kode"
+
+#: packages/toc/src/generators/notebook/toolbar_generator.tsx:196 packages/toc/src/generators/notebook/toolbar_generator.tsx:197
+msgid "Toggle Markdown Text Cells"
+msgstr "Alihkan Sel Teks Markdown"
+
+#: packages/toc/src/generators/notebook/toolbar_generator.tsx:228 packages/toc/src/generators/notebook/toolbar_generator.tsx:229
+msgid "Show Tags Menu"
+msgstr "Tampilkan Menu Tag"
+
+#: packages/translation-extension/src/index.ts:106
+msgid "Language"
+msgstr "Bahasa"
+
+#: packages/translation-extension/src/index.ts:141
+msgid "Change interface language?"
+msgstr "Ganti Bahasa Antarmuka?"
+
+#: packages/translation-extension/src/index.ts:142
+msgid "Are you sure you want to refresh?"
+msgstr "Kamu yakin kamu mau segarkan?"
+
+#. obsolete
+#: packages/fileeditor-extension/src/commands.ts:1200
+msgid "Editor"
+msgstr "Editor"
+
+#. obsolete
+#: packages/debugger/src/panels/variables/index.ts:70
+msgid "Table / Tree View"
+msgstr "Tampilan Tabel / Pohon"
+

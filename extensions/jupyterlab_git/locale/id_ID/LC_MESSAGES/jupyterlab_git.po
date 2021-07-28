@@ -1,0 +1,565 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jupyterlab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: jupyterlab\n"
+"X-Crowdin-Project-ID: 409874\n"
+"X-Crowdin-Language: id\n"
+"X-Crowdin-File: /[jupyterlab.language-packs] master/extensions/jupyterlab_git/locale/jupyterlab_git.pot\n"
+"X-Crowdin-File-ID: 52\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"PO-Revision-Date: 2021-07-08 04:14\n"
+
+#: /schema/plugin.json:10
+msgid "Suspend user interaction until commands finish"
+msgstr "Tangguhkan interaksi pengguna hingga perintah selesai"
+
+#: /schema/plugin.json:11
+msgctxt "schema"
+msgid "Suspend JupyterLab user interaction until Git commands (e.g., commit, pull, reset, revert) finish executing. Setting this to true helps mitigate potential race conditions leading to data loss, conflicts, and a broken Git history. Unless running a slow network, UI suspension should not interfere with standard workflows. Setting this to false allows for actions to trigger multiple concurrent Git actions."
+msgstr "Tangguhkan interaksi pengguna JupyterLab hingga perintah Git (misalnya, commit, pull, reset, revert) selesai dieksekusi. Mengatur ini ke TRUE membantu mengurangi kondisi balapan potensial yang menyebabkan hilangnya data, konflik, dan riwayat Git yang rusak. Kecuali menjalankan jaringan yang lambat, penangguhan UI tidak akan mengganggu alur kerja standar. Mengatur ini ke FALSE memungkinkan tindakan untuk memicu beberapa tindakan Git bersamaan."
+
+#: /schema/plugin.json:16
+msgid "Cancel pull merge conflict"
+msgstr "Batalkan konflik gabungan tarik"
+
+#: /schema/plugin.json:17
+msgctxt "schema"
+msgid "If true, when fetching and integrating changes from a remote repository, a conflicting merge is canceled and the working tree left untouched."
+msgstr "Jika TRUE, ketika mengambil dan mengintegrasikan perubahan dari repositori remote, gabungan yang saling bertentangan dibatalkan dan pohon kerja tidak terentuh."
+
+#: /schema/plugin.json:22
+msgid "Disable branch with changes"
+msgstr "Nonaktifkan cabang dengan perubahan"
+
+#: /schema/plugin.json:23
+msgctxt "schema"
+msgid "Disable all branch operations (new, switch) when there are changed/staged files"
+msgstr "Nonaktifkan setiap operasi cabang (baru, ganti) ketika ada berkas yang diubah/staged"
+
+#: /schema/plugin.json:28
+msgid "Display Git status updates"
+msgstr "Menampilkan pembaruan status Git"
+
+#: /schema/plugin.json:29
+msgctxt "schema"
+msgid "Display Git extension status updates in the JupyterLab status bar. If true, the extension displays status updates in the JupyterLab status bar, such as when pulling and pushing changes, switching branches, and polling for changes. Depending on the level of extension activity, some users may find the status updates distracting. In which case, setting this to false should reduce visual noise."
+msgstr "Tampilkan pembaruan status ekstensi Git di bilah status JupyterLab. Jika TRUE ekstensi menampilkan pembaruan status di JupyterLab bilah status, seperti saat menarik dan mendorong perubahan, beralih cabang, dan polling untuk perubahan. Tergantung pada tingkat aktivitas ekstensi, beberapa pengguna mungkin menemukan pembaruan status mengganggu. Dalam hal ini, pengaturan ke FALSE akan mengurangi kebisingan visual."
+
+#: /schema/plugin.json:34
+msgid "Show diff on double click"
+msgstr "Tampilkan diff saat klik ganda"
+
+#: /schema/plugin.json:35
+msgctxt "schema"
+msgid "If true, doubling clicking a file in the list of changed files will open a diff."
+msgstr "Jika TRUE, mengklik ganda sebuah file didalam daftar file yang diubah akan membuka diff."
+
+#: /schema/plugin.json:4
+msgctxt "schema"
+msgid "Git"
+msgstr "Git"
+
+#: /schema/plugin.json:40
+msgid "History count"
+msgstr "Hitungan riwayat"
+
+#: /schema/plugin.json:41
+msgctxt "schema"
+msgid "Number of (most recent) commits shown in the history log"
+msgstr "Jumlah komit (terbaru) yang diperlihatkan dalam log riwayat"
+
+#: /schema/plugin.json:46
+msgid "Refresh if the Git tab is hidden"
+msgstr "Refresh jika tab Git tersembunyi"
+
+#: /schema/plugin.json:47
+msgctxt "schema"
+msgid "Whether to check Git status when the Git tab is not visible. Choose `false` for higher performance."
+msgstr "Perlukah memeriksa status Git ketika tab Git tidak terlihat. Pilih 'false' untuk kinerja yang lebih tinggi."
+
+#: /schema/plugin.json:5
+msgctxt "schema"
+msgid "jupyterlab-git settings."
+msgstr "pengaturan jupyterlab-git."
+
+#: /schema/plugin.json:52
+msgid "Refresh interval"
+msgstr "Selang waktu refresh"
+
+#: /schema/plugin.json:53
+msgctxt "schema"
+msgid "Number of milliseconds between polling the file system for changes."
+msgstr "Jumlah milidetik antara penjajakan sistem berkas untuk perubahan."
+
+#: /schema/plugin.json:58
+msgid "Simple staging flag"
+msgstr "Tandai staging sederhana"
+
+#: /schema/plugin.json:59
+msgctxt "schema"
+msgid "If true, use a simplified concept of staging. Only files with changes are shown (instead of showing staged/changed/untracked), and all files with changes will be automatically staged"
+msgstr "Jika TRUE, gunakan konsep staging yang disederhanakan. Hanya berkas-berkas dengan perubahan yang ditampilkan (dari pada menujukan staged/berubah/tidak terlacak), dan semua derkas dengan perubahan akan staged secara otomatis"
+
+#: /schema/plugin.json:64
+msgid "Trigger push on commit"
+msgstr "Memicu dorong pada commit"
+
+#: /schema/plugin.json:65
+msgctxt "schema"
+msgid "Whether to trigger or not a push for each commit."
+msgstr "Apakan akan memicu atau tidak mendorong pada setiap commit."
+
+#: src/commandsAndMenu.tsx:117
+msgid "Commit from the Commit Box"
+msgstr "Commit dari Kotak Commit"
+
+#: src/commandsAndMenu.tsx:118
+msgid "Submit the commit using the summary and description from commit box"
+msgstr "Serakan commit mengguanakan ringkasan dan deskripsi dari kotak commit"
+
+#: src/commandsAndMenu.tsx:1180
+msgid "Git credentials required"
+msgstr "Dibutuhkan kredensial Git"
+
+#: src/commandsAndMenu.tsx:1183 src/widgets/CredentialsBox.tsx:15
+msgid "Enter credentials for remote repository"
+msgstr "Masukkan kredensial untuk repositori jarak jauh"
+
+#: src/commandsAndMenu.tsx:1184
+msgid "Incorrect username or password."
+msgstr "Salah identitas pegguna atau kata sandi."
+
+#: src/commandsAndMenu.tsx:129
+msgid "Open Git Repository in Terminal"
+msgstr "Buka repositori Git di Terminal"
+
+#: src/commandsAndMenu.tsx:130
+msgid "Open a New Terminal to the Git Repository"
+msgstr "Buka baru Terminal ke repositori Git"
+
+#: src/commandsAndMenu.tsx:161
+msgid "Git Interface"
+msgstr "Tampilan Git"
+
+#: src/commandsAndMenu.tsx:162
+msgid "Go to Git user interface"
+msgstr "Pergi ke tampilan pengguna Git"
+
+#: src/commandsAndMenu.tsx:174 src/commandsAndMenu.tsx:181
+msgid "Initialize a Repository"
+msgstr "Inisialisasi Repositori"
+
+#: src/commandsAndMenu.tsx:175
+msgid "Create an empty Git repository or reinitialize an existing one"
+msgstr "Buat repositori Git kosong atau inisialisasi ulang yang sudah ada"
+
+#: src/commandsAndMenu.tsx:182
+msgid "Do you really want to make this directory a Git Repo?"
+msgstr "Apakah Anda yakin ingin membuat direktori ini sebagai Git Repo?"
+
+#: src/commandsAndMenu.tsx:184 src/commandsAndMenu.tsx:297 src/commandsAndMenu.tsx:751 src/commandsAndMenu.tsx:794
+msgid "Cancel"
+msgstr "Batalkan"
+
+#: src/commandsAndMenu.tsx:185
+msgid "Yes"
+msgstr "Ya"
+
+#: src/commandsAndMenu.tsx:191
+msgid "Initializing..."
+msgstr "Mulai inisialisasi..."
+
+#: src/commandsAndMenu.tsx:198
+msgid "Git repository initialized."
+msgstr "Repositori Git diinisialisasi."
+
+#: src/commandsAndMenu.tsx:203
+msgid "Encountered an error when initializing the repository. Error: "
+msgstr "Mengalami kesalahan saat mendorong perubahan. Kesalahan: "
+
+#: src/commandsAndMenu.tsx:209
+msgid "Failed to initialize the Git repository"
+msgstr "Gagal inisialisasi repositori Git"
+
+#: src/commandsAndMenu.tsx:230
+msgid "Simple staging"
+msgstr "Staging sederhana"
+
+#: src/commandsAndMenu.tsx:239
+msgid "Double click opens diff"
+msgstr "Klik duo kali membuka diff"
+
+#: src/commandsAndMenu.tsx:248
+msgid "Add Remote Repository"
+msgstr "Tambahkan Repositori Jarak Jauh"
+
+#: src/commandsAndMenu.tsx:249
+msgid "Add a Git remote repository"
+msgstr "Tambahkan Repositori Git Jarak Jauh"
+
+#: src/commandsAndMenu.tsx:254
+msgid "Not in a Git repository. Unable to add a remote."
+msgstr "Tidak di repositori Git. Tidak bisa tambah jarak jauh."
+
+#: src/commandsAndMenu.tsx:263
+msgid "Add a remote repository"
+msgstr "Tambahkan Repositori Git Jarak Jauh"
+
+#: src/commandsAndMenu.tsx:264
+msgid "Remote Git repository URL"
+msgstr "URL repositori Git jarak jauh"
+
+#: src/commandsAndMenu.tsx:278
+msgid "Error when adding remote repository"
+msgstr "Error ketika tambah repositori jarak jauh"
+
+#: src/commandsAndMenu.tsx:288
+msgid "Clone a Repository"
+msgstr "Klon Repositori"
+
+#: src/commandsAndMenu.tsx:289
+msgid "Clone a repository from a URL"
+msgstr "Klon repositori dari URL"
+
+#: src/commandsAndMenu.tsx:293
+msgid "Clone a repo"
+msgstr "Klon repositori"
+
+#: src/commandsAndMenu.tsx:298
+msgid "CLONE"
+msgstr "KLON"
+
+#: src/commandsAndMenu.tsx:305
+msgid "Cloning..."
+msgstr "Kloning..."
+
+#: src/commandsAndMenu.tsx:315
+msgid "Successfully cloned"
+msgstr "Berhasil klon"
+
+#: src/commandsAndMenu.tsx:326
+msgid "Failed to clone"
+msgstr "Gagal klon"
+
+#: src/commandsAndMenu.tsx:337 src/commandsAndMenu.tsx:338
+msgid "Open .gitignore"
+msgstr "Buka .gitignore"
+
+#: src/commandsAndMenu.tsx:347
+msgid "Push to Remote"
+msgstr "Mendorong ke Jarak Jauh"
+
+#: src/commandsAndMenu.tsx:348
+msgid "Push code to remote repository"
+msgstr "Mendorong kode ke repositori jarak jauh"
+
+#: src/commandsAndMenu.tsx:353
+msgid "Pushing..."
+msgstr "Mendorong..."
+
+#: src/commandsAndMenu.tsx:362
+msgid "Successfully pushed"
+msgstr "Berhasil mendorong"
+
+#: src/commandsAndMenu.tsx:368
+msgid "Encountered an error when pushing changes. Error: "
+msgstr "Mengalami kesalahan saat mendorong perubahan. Kesalahan: "
+
+#: src/commandsAndMenu.tsx:372
+msgid "Failed to push"
+msgstr "Gagal mendorong"
+
+#: src/commandsAndMenu.tsx:382
+msgid "Pull from Remote"
+msgstr "Menarik dari Jarak Jauh"
+
+#: src/commandsAndMenu.tsx:383
+msgid "Pull latest code from remote repository"
+msgstr "Menarik kode dari repositori jarak jauh"
+
+#: src/commandsAndMenu.tsx:388
+msgid "Pulling..."
+msgstr "Menarik..."
+
+#: src/commandsAndMenu.tsx:397
+msgid "Successfully pulled"
+msgstr "Berhasil menarik"
+
+#: src/commandsAndMenu.tsx:407
+msgid "Failed to pull"
+msgstr "Gagal menarik"
+
+#: src/commandsAndMenu.tsx:423
+msgid "Show Diff"
+msgstr "Menunjukkan Diff"
+
+#: src/commandsAndMenu.tsx:424
+msgid "Display a file diff."
+msgstr "Menampilkan diff berkas."
+
+#: src/commandsAndMenu.tsx:470
+msgid "Refresh"
+msgstr "Segarkan"
+
+#: src/commandsAndMenu.tsx:475
+msgid "Refresh diff widget"
+msgstr "Refresh diff widget"
+
+#: src/commandsAndMenu.tsx:498
+msgid "Diff Not Supported"
+msgstr "Diff Tidak Didukung"
+
+#: src/commandsAndMenu.tsx:499
+msgid "Diff is not supported for %1 files."
+msgstr "Diff tidak didukung untuk %1 berkas-berkas."
+
+#: src/commandsAndMenu.tsx:513
+msgid "Open"
+msgstr "Buka"
+
+#: src/commandsAndMenu.tsx:515
+msgid "Open selected file"
+msgstr "Buka berkas pilihan"
+
+#: src/commandsAndMenu.tsx:516
+msgid "Open selected files"
+msgstr "Buka berkas-berkas pilihan"
+
+#: src/commandsAndMenu.tsx:524
+msgid "Open File Failed"
+msgstr "Membuka Berkas Gagal"
+
+#: src/commandsAndMenu.tsx:525
+msgid "This file has been deleted!"
+msgstr "Berkas ini sudah di hapus!"
+
+#: src/commandsAndMenu.tsx:546
+msgid "Diff"
+msgstr "Diff"
+
+#: src/commandsAndMenu.tsx:548
+msgid "Diff selected file"
+msgstr "Diff berkas pilihan"
+
+#: src/commandsAndMenu.tsx:549
+msgid "Diff selected files"
+msgstr "Diff berkas-berkas pilihan"
+
+#: src/commandsAndMenu.tsx:659
+msgid "Add"
+msgstr "Tambah"
+
+#: src/commandsAndMenu.tsx:661
+msgid "Stage or track the changes to selected file"
+msgstr "Stage atau telusur perubahan berkas yang di pilih"
+
+#: src/commandsAndMenu.tsx:662
+msgid "Stage or track the changes of selected files"
+msgstr "Stage atau telusur perubahan berkas-berkas yang di pilih"
+
+#: src/commandsAndMenu.tsx:674
+msgid "Stage"
+msgstr "Stage"
+
+#: src/commandsAndMenu.tsx:676
+msgid "Stage the changes of selected file"
+msgstr "Stage perubahan berkas yang di pilih"
+
+#: src/commandsAndMenu.tsx:677
+msgid "Stage the changes of selected files"
+msgstr "Stage perubahan berkas-berkas yang di pilih"
+
+#: src/commandsAndMenu.tsx:689
+msgid "Track"
+msgstr "Telusur"
+
+#: src/commandsAndMenu.tsx:691
+msgid "Start tracking selected file"
+msgstr "Mulai melacak berkas pilihan"
+
+#: src/commandsAndMenu.tsx:692
+msgid "Start tracking selected files"
+msgstr "Mulai melacak berkas-berkas pilihan"
+
+#: src/commandsAndMenu.tsx:704
+msgid "Unstage"
+msgstr "Unstage"
+
+#: src/commandsAndMenu.tsx:706
+msgid "Unstage the changes of selected file"
+msgstr "Unstage perubahan berkas yang di pilih"
+
+#: src/commandsAndMenu.tsx:707
+msgid "Unstage the changes of selected files"
+msgstr "Unstage perubahan berkas-berkas yang di pilih"
+
+#: src/commandsAndMenu.tsx:730 src/commandsAndMenu.tsx:752
+msgid "Delete"
+msgstr "Hapus"
+
+#: src/commandsAndMenu.tsx:732
+msgid "Delete this file"
+msgstr "Hapus berkas ini"
+
+#: src/commandsAndMenu.tsx:733
+msgid "Delete these files"
+msgstr "Hapus berkas-berkas ini"
+
+#: src/commandsAndMenu.tsx:740
+msgid "Delete Files"
+msgstr "Hapus Berkas"
+
+#: src/commandsAndMenu.tsx:743
+msgid "Are you sure you want to permanently delete the following files?               This action cannot be undone."
+msgstr "Apakah Anda yakin ingin menghapus berkas-berkas berikut secara permanen? Tindakan ini tidak dapat dibatalkan."
+
+#: src/commandsAndMenu.tsx:762
+msgid "Deleting %1 failed."
+msgstr "Gagal hapus %1."
+
+#: src/commandsAndMenu.tsx:763 src/commandsAndMenu.tsx:818 src/index.ts:128
+msgid "DISMISS"
+msgstr "Memberhentikan"
+
+#: src/commandsAndMenu.tsx:773 src/commandsAndMenu.tsx:795
+msgid "Discard"
+msgstr "Membuang"
+
+#: src/commandsAndMenu.tsx:775
+msgid "Discard recent changes of selected file"
+msgstr "Buang perubahan terbaru dari berkas di pilih"
+
+#: src/commandsAndMenu.tsx:776
+msgid "Discard recent changes of selected files"
+msgstr "Buang perubahan terbaru dari berkas tertentu"
+
+#: src/commandsAndMenu.tsx:783
+msgid "Discard changes"
+msgstr "Membuang perubahan"
+
+#: src/commandsAndMenu.tsx:786
+msgid "Are you sure you want to permanently discard changes to the following files?               This action cannot be undone."
+msgstr "Apakah Anda yakin ingin membuang berkas-berkas yang di rubah secara permanen? Tindakan ini tidak dapat dibatalkan."
+
+#: src/commandsAndMenu.tsx:816
+msgid "Discard changes for %1 failed."
+msgstr "Buang perubahan untuk %1 gagal."
+
+#: src/commandsAndMenu.tsx:829 src/commandsAndMenu.tsx:833
+msgid "Ignore this file (add to .gitignore)"
+msgstr "Abaikan berkas ini (tambahkan ke .gitignore)"
+
+#: src/commandsAndMenu.tsx:830 src/commandsAndMenu.tsx:834
+msgid "Ignore these files (add to .gitignore)"
+msgstr "Abaikan berkas-berkas ini (tambahkan ke .gitignore)"
+
+#: src/commandsAndMenu.tsx:852
+msgid "Ignore %2 extension (add to .gitignore)"
+msgid_plural "Ignore %2 extensions (add to .gitignore)"
+msgstr[0] "Abaikan %2 exstensi (tambakan ke .gitignore)"
+
+#: src/commandsAndMenu.tsx:860
+msgid "Ignore this file extension (add to .gitignore)"
+msgstr "Abaikan exstensi berkas ini (tambakan ke .gitignore)"
+
+#: src/commandsAndMenu.tsx:861
+msgid "Ignore these files extension (add to .gitignore)"
+msgstr "Abaikan exstensi berkas-berkas ini (tambakan ke .gitignore)"
+
+#: src/commandsAndMenu.tsx:870
+msgid "Ignore file extension"
+msgstr "Abaikan exstensi berkas"
+
+#: src/commandsAndMenu.tsx:871
+msgid "Are you sure you want to ignore all %1 files within this git repository?"
+msgstr "Apakah Anda yakin ingin mengabaikan semua %1 berkas-berkas di dalam repositori git ini?"
+
+#: src/commandsAndMenu.tsx:877 src/commandsAndMenu.tsx:880
+msgid "Ignore"
+msgstr "Abaikan"
+
+#: src/commandsAndMenu.tsx:897
+msgid "No actions available"
+msgstr "Tidak ada tindakan yang tersedia"
+
+#: src/commandsAndMenu.tsx:916
+msgid "Set Up Remotes"
+msgstr "Mempersiapkan Remotes"
+
+#: src/commandsAndMenu.tsx:920
+msgid "Git Documentation"
+msgstr "Dokumentasi Git"
+
+#: src/commandsAndMenu.tsx:951
+msgid " Help "
+msgstr " Membantu "
+
+#: src/components/BranchMenu.tsx:51
+msgid "Unable to switch branch"
+msgstr "Tidak bisa mangganti cabang"
+
+#: src/components/BranchMenu.tsx:55 src/components/TagMenu.tsx:49
+msgid "Your changes to the following files would be overwritten by switching:"
+msgstr "Perubahan Anda di berkas-berkas barikut akan tertimpa dengan ganti:"
+
+#: src/components/BranchMenu.tsx:63
+msgid "Please commit, stash, or discard your changes before you switch branches."
+msgstr "Silahkan lakukan, simpanan, atau buang perubahan Anda sebelum Anda mengganti cabang."
+
+#: src/components/BranchMenu.tsx:69 src/components/TagMenu.tsx:63
+msgid "Dismiss"
+msgstr "Memberhentikan"
+
+#: src/components/BranchMenu.tsx:74
+msgid "Failed to switch branch."
+msgstr "Gagal mengganti cabang."
+
+#: src/components/TagMenu.tsx:45
+msgid "Unable to checkout tag"
+msgstr "Tidak berhasil checkout tag"
+
+#: src/components/TagMenu.tsx:57
+msgid "Please commit, stash, or discard your changes before you checkout tags."
+msgstr "Silahkan lakukan, simpanan, atau buang perubahan Anda sebelum checkout label."
+
+#: src/components/TagMenu.tsx:68
+msgid "Failed to checkout tag."
+msgstr "Gagal checkout tag."
+
+#: src/index.ts:102
+msgid "git command version must be > 2; got %1."
+msgstr "versi perintah git harus > 2; punya %1."
+
+#: src/index.ts:109
+msgid "The versions of the JupyterLab Git server frontend and backend do not match. The @jupyterlab/git frontend extension has version: %1 while the python package has version %2. Please install identical version of jupyterlab-git Python package and the @jupyterlab/git extension. Try running: pip install --upgrade jupyterlab-git"
+msgstr "Versi frontend dan backed server JupyterLab Git tidak cocok. @jupyterlab/git frontend ekstensi ada versi: %1 sedangkan paket python ada versi %2. Silakan instal versi paket Python jupyterlab-git identik dan @jupyterlab/git ekstensi. Coba jalankan: pip install --upgrade jupyterlab-git"
+
+#: src/index.ts:126
+msgid "Failed to load the jupyterlab-git server extension"
+msgstr "Gagal memuat ekstensi server jupyterlab-git"
+
+#: src/index.ts:94
+msgid "git command not found - please ensure you have Git > 2 installed"
+msgstr "perintah git tidak ditemukan - silakan pastikan Anda punya Git > 2 sudah di instal"
+
+#: src/server.ts:27
+msgid "Git server extension is unavailable. Please ensure you have installed the JupyterLab Git server extension by running: pip install --upgrade jupyterlab-git. To confirm that the server extension is installed, run: jupyter server extension list."
+msgstr "Ekstensi server Git tidak tersedia. Silakan pastikan Anda sudah instal JupyterLab Git server ekstensi dengan menjalankan: pip install --upgrade jupyterlab-git. Untuk mengonfirmasi bahwa ekstensi server sudah di instal, jalakan: jupyter server extension list."
+
+#: src/widgets/CredentialsBox.tsx:37
+msgid "username"
+msgstr "identitas pengguna"
+
+#: src/widgets/CredentialsBox.tsx:38
+msgid "password / personal access token"
+msgstr "kata sandi / token akses pribadi"
+
+#: src/widgets/GitCloneForm.ts:30
+msgid "Enter the Clone URI of the repository"
+msgstr "Masukkan klon URI repositori"
+
